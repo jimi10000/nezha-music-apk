@@ -1,10 +1,10 @@
 {
   "appId": "cn.toside.music.mobile",
-  "versionName": "3.0.10-car",
-  "versionCode": 113003,
-  "tagName": "v3.0.10-car",
-  "apkName": "fenghuolun-music-v3.0.10-car-arm64-v8a.apk",
-  "md5": "cef41110748124acbec6c7971689ae22",
-  "description": "新增智能播放守护：识别用户主动暂停与电话、导航、语音助手等正常音频抢占；异常停播、焦点恢复、蓝牙短暂中断和播放卡死时自动检测并采用退避重试恢复。",
+  "versionName": "3.0.11-car",
+  "versionCode": 114003,
+  "tagName": "v3.0.11-car",
+  "apkName": "fenghuolun-music-v3.0.11-car-arm64-v8a.apk",
+  "md5": "fb31570e58ecc86ba05b3fe5de11e057",
+  "description": "修复应用内更新在 CDN 缓存陈旧时误判已是最新：改为并行探测 GitHub 源、jsDelivr 与 Gitee，取版本最高的源；安装包下载新增 GitHub Release 直链回退。",
   "forceUpdate": false
 }
