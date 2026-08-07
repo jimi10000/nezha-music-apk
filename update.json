@@ -1,10 +1,10 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.23-car",
-  "versionCode": 126003,
-  "tagName": "v3.0.23-car",
-  "apkName": "fenghuolun-music-v3.0.23-car-arm64-v8a.apk",
-  "md5": "f15605e9acf97ba9d98ebf9fd1de20ff",
-  "description": "统一完成易用性优化：7个内置播放源自动写入，启动直接优先使用野花音源，无需用户手动选择；日志取消同步/音源/级别等分类入口，统一为全部日志，并可在应用内查看、刷新、复制和清空，覆盖播放、音源、同步、车宠、悬浮窗、ANR与崩溃信息；新安装默认主题改为粉装玉琢，已有用户手动选择不被覆盖。同步更新应用内版本号为3.0.23-car，arm64最终versionCode为126003。",
+  "versionName": "3.0.24-car",
+  "versionCode": 127003,
+  "tagName": "v3.0.24-car",
+  "apkName": "fenghuolun-music-v3.0.24-car-arm64-v8a.apk",
+  "md5": "71eb3477c23c1b9e6ab6124899316c21",
+  "description": "全屏视频时自动隐藏桌宠和桌面播放悬浮窗，退出后按原开关状态恢复；导航播报时自动压低播放器音量，结束后恢复并防止覆盖用户手动调节；应用退出时彻底清除悬浮窗与服务窗口残留；桌面播放/歌词悬浮窗取消自动吸附侧边，支持自由拖动，移除卡片描边改为无边框；移除悬浮窗内K歌按钮与关联布局代码。同步更新版本号为3.0.24-car，arm64最终versionCode为127003。",
   "forceUpdate": false
 }
