@@ -1,10 +1,10 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.26-car",
-  "versionCode": 129003,
-  "tagName": "v3.0.26-car",
-  "apkName": "fenghuolun-music-v3.0.26-car-arm64-v8a.apk",
-  "md5": "2ea14f54fed56ba59eb3452792d23e40",
-  "description": "新增原创开源蓝喵车宠形象（三角猫耳、粉鼻、品牌橙小领结），替换版权角色哆啦A梦；非首页页面（设置、关于等）改为单次左滑返回上一级，首页保持双滑退出无确认弹窗；本地日志系统优化：默认关闭文件日志（仅错误级别），保留期缩短为3天，环形缓冲缩减至200条，崩溃/ANR仍强制落盘；新增日志开关与shutdown钩子。同步更新版本号至3.0.26-car，arm64最终versionCode为129003。",
+  "versionName": "3.0.27-car",
+  "versionCode": 130003,
+  "tagName": "v3.0.27-car",
+  "apkName": "fenghuolun-music-v3.0.27-car-arm64-v8a.apk",
+  "md5": "61732A08A6275EF3AD4BECFDEEB67479",
+  "description": "取消流量类型限制：蜂窝网络与 WiFi 均可直接播放、缓存与下载，不再区分网络环境。新增双屏显示适配，悬浮窗支持主屏/副屏目标切换（setDisplayTarget）。悬浮窗新增搜索入口与搜索弹窗。悬浮窗默认歌词字体放大至 21sp，应用内歌词字体同步放大（竖屏 240 / 横屏 250）。同步版本号至 3.0.27-car，arm64 最终 versionCode 为 130003。播放源重复问题此前已基于持久化列表去重修复。",
   "forceUpdate": false
 }
