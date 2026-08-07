@@ -1,10 +1,10 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.22-car",
-  "versionCode": 125003,
-  "tagName": "v3.0.22-car",
-  "apkName": "fenghuolun-music-v3.0.22-car-arm64-v8a.apk",
-  "md5": "3c02d61be15b0c4b7ad37da920515e43",
-  "description": "稳定性与性能优化：统一更新机制，保留原生自动检测并取消RN重复自动检测，避免重复请求/弹窗；系统更新通知同一版本只提醒一次；APK下载严格按jsDelivr→GitHub→Gitee完整回退。车宠绘制缓存皮肤/情绪/强度等偏好，移除每帧SharedPreferences访问，并根据动作自适应20~60FPS，降低车机CPU、发热与功耗。内置7个音源对老用户也会幂等补齐；多播放请求并发失败时增加8秒切源去抖，防止音源连续跳动。",
+  "versionName": "3.0.23-car",
+  "versionCode": 126003,
+  "tagName": "v3.0.23-car",
+  "apkName": "fenghuolun-music-v3.0.23-car-arm64-v8a.apk",
+  "md5": "f15605e9acf97ba9d98ebf9fd1de20ff",
+  "description": "统一完成易用性优化：7个内置播放源自动写入，启动直接优先使用野花音源，无需用户手动选择；日志取消同步/音源/级别等分类入口，统一为全部日志，并可在应用内查看、刷新、复制和清空，覆盖播放、音源、同步、车宠、悬浮窗、ANR与崩溃信息；新安装默认主题改为粉装玉琢，已有用户手动选择不被覆盖。同步更新应用内版本号为3.0.23-car，arm64最终versionCode为126003。",
   "forceUpdate": false
 }
