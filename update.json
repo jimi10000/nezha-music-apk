@@ -1,10 +1,10 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.24-car",
-  "versionCode": 127003,
-  "tagName": "v3.0.24-car",
-  "apkName": "fenghuolun-music-v3.0.24-car-arm64-v8a.apk",
-  "md5": "71eb3477c23c1b9e6ab6124899316c21",
-  "description": "全屏视频时自动隐藏桌宠和桌面播放悬浮窗，退出后按原开关状态恢复；导航播报时自动压低播放器音量，结束后恢复并防止覆盖用户手动调节；应用退出时彻底清除悬浮窗与服务窗口残留；桌面播放/歌词悬浮窗取消自动吸附侧边，支持自由拖动，移除卡片描边改为无边框；移除悬浮窗内K歌按钮与关联布局代码。同步更新版本号为3.0.24-car，arm64最终versionCode为127003。",
+  "versionName": "3.0.26-car",
+  "versionCode": 129003,
+  "tagName": "v3.0.26-car",
+  "apkName": "fenghuolun-music-v3.0.26-car-arm64-v8a.apk",
+  "md5": "2ea14f54fed56ba59eb3452792d23e40",
+  "description": "鏂板鍘熷垱寮€婧愯摑鍠佃溅瀹犲舰璞★紙涓夎鐚€炽€佺矇榧汇€佸搧鐗屾灏忛缁擄級锛屾浛鎹㈢増鏉冭鑹插搯鍟姊︼紱闈為椤甸〉闈紙璁剧疆銆佸叧浜庣瓑锛夋敼涓哄崟娆″乏婊戣繑鍥炰笂涓€绾э紝棣栭〉淇濇寔鍙屾粦閫€鍑烘棤纭寮圭獥锛涙湰鍦版棩蹇楃郴缁熶紭鍖栵細榛樿鍏抽棴鏂囦欢鏃ュ織锛堜粎閿欒绾у埆锛夛紝淇濈暀鏈熺缉鐭负3澶╋紝鐜舰缂撳啿缂╁噺鑷?00鏉★紝宕╂簝/ANR浠嶅己鍒惰惤鐩橈紱鏂板鏃ュ織寮€鍏充笌shutdown閽╁瓙銆傚悓姝ユ洿鏂扮増鏈彿鑷?.0.26-car锛宎rm64鏈€缁坴ersionCode涓?29003銆?,
   "forceUpdate": false
 }
