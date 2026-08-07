@@ -1,10 +1,10 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.20-car",
-  "versionCode": 123003,
-  "tagName": "v3.0.20-car",
-  "apkName": "fenghuolun-music-v3.0.20-car-arm64-v8a.apk",
-  "md5": "f98817fe9be4d298ff2470e4bca1ee0a",
-  "description": "临时屏蔽 K歌功能；本地日志系统改为默认常开（无需开关，仅保留级别选择），并增强：新增 ANR 主线程卡死看门狗、崩溃时附带最近 80 条内存日志上下文与运行环境（内存/线程）快照、启动时记录设备与版本信息；保留 3.0.19 的“其他”页按需加载兜底、崩溃捕获器链路穿透与 JS 异常自动落盘。",
+  "versionName": "3.0.21-car",
+  "versionCode": 124003,
+  "tagName": "v3.0.21-car",
+  "apkName": "fenghuolun-music-v3.0.21-car-arm64-v8a.apk",
+  "md5": "8b8311c267251ebd9dacc3e02bb6e1f5",
+  "description": "车宠优化：三个原生角色重绘为精致国潮卡通（橙橙犬/卡皮巴拉/哆啦A梦），新增熊猫、橘猫、兔子三款角色，统一粗描边+高光+腮红+闪亮大眼；导入立绘升级为圆角阴影卡片；悬浮窗新增蔚来NOMI式成长进度环+等级徽章；新增比亚迪豹抱式驾驶场景联动（转弯倾斜/颠簸抖动/急刹警惕/低速放松）与每日陪伴打卡；检测到新版本时新增系统通知推送，解决不在前台看不到更新的问题。音源：首次启动自动导入全部7个内置音源并默认激活野花，野花取不到链或播放失败时立即自动切换其他健康音源。",
   "forceUpdate": false
 }
