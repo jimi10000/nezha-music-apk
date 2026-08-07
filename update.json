@@ -1,10 +1,10 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.21-car",
-  "versionCode": 124003,
-  "tagName": "v3.0.21-car",
-  "apkName": "fenghuolun-music-v3.0.21-car-arm64-v8a.apk",
-  "md5": "8b8311c267251ebd9dacc3e02bb6e1f5",
-  "description": "车宠优化：三个原生角色重绘为精致国潮卡通（橙橙犬/卡皮巴拉/哆啦A梦），新增熊猫、橘猫、兔子三款角色，统一粗描边+高光+腮红+闪亮大眼；导入立绘升级为圆角阴影卡片；悬浮窗新增蔚来NOMI式成长进度环+等级徽章；新增比亚迪豹抱式驾驶场景联动（转弯倾斜/颠簸抖动/急刹警惕/低速放松）与每日陪伴打卡；检测到新版本时新增系统通知推送，解决不在前台看不到更新的问题。音源：首次启动自动导入全部7个内置音源并默认激活野花，野花取不到链或播放失败时立即自动切换其他健康音源。",
+  "versionName": "3.0.22-car",
+  "versionCode": 125003,
+  "tagName": "v3.0.22-car",
+  "apkName": "fenghuolun-music-v3.0.22-car-arm64-v8a.apk",
+  "md5": "3c02d61be15b0c4b7ad37da920515e43",
+  "description": "稳定性与性能优化：统一更新机制，保留原生自动检测并取消RN重复自动检测，避免重复请求/弹窗；系统更新通知同一版本只提醒一次；APK下载严格按jsDelivr→GitHub→Gitee完整回退。车宠绘制缓存皮肤/情绪/强度等偏好，移除每帧SharedPreferences访问，并根据动作自适应20~60FPS，降低车机CPU、发热与功耗。内置7个音源对老用户也会幂等补齐；多播放请求并发失败时增加8秒切源去抖，防止音源连续跳动。",
   "forceUpdate": false
 }
