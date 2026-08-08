@@ -1,11 +1,11 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.28-car",
-  "versionCode": 131003,
-  "tagName": "v3.0.28-car",
-  "apkName": "fenghuolun-music-v3.0.28-car-arm64-v8a.apk",
-  "md5": "c253887b982e6ad880fb8507596c4594",
-  "description": "音律灯（RhythmLight）功能上车，K歌入口已隐藏。推荐更新。",
+  "versionName": "3.0.31-car",
+  "versionCode": 134003,
+  "tagName": "v3.0.31-car",
+  "apkName": "fenghuolun-music-v3.0.31-car-arm64-v8a.apk",
+  "md5": "b6e9059e08d6f03fde871e56a6152873",
+  "description": "新增两大插件化能力（独立分包，未改动原播放内核）：① 多平台歌单外链导入：在「我的歌单」粘贴网易云、QQ音乐、酷狗、酷我、汽水音乐、B站合集的公开分享链接，自动识别平台、预览曲目并模糊匹配本地曲库生成新歌单，失败曲目单独列出，大歌单分批解析防卡顿；界面含版权免责提示。② 全局输入框手机远程输入：所有输入框右侧新增二维码按钮，车机生成临时局域网二维码（5 分钟有效），手机扫码打开内网输入页远程打字，文本回填到光标处；识别到歌单链接会自动唤起导入。全程仅局域网传输、不使用相机、不联网上传，关闭弹窗即销毁服务端口。设置页「其他」新增「手机远程输入」开关。建议更新。",
   "forceUpdate": false,
-  "size": 19764939
+  "size": 20181650
 }
