@@ -4,7 +4,8 @@
   "versionCode": 132003,
   "tagName": "v3.0.29-car",
   "apkName": "fenghuolun-music-v3.0.29-car-arm64-v8a.apk",
-  "md5": "TBD_AFTER_BUILD",
+  "md5": "04f7fa61da30d7ef5268e1458af3e840",
   "description": "修复预装音源每次更新被重复复制的 bug（启动时按名称去重，同名保留版本最高并自动升级替换）。RhythmLight 氛围灯刷新由 60fps 降至 30fps 以降低 CPU/内存占用，包络速度同步归一化保持视觉一致。安装新版本后自动重启生效。删除自定义音源与退出应用均不再弹确认框，操作更顺手。推荐更新。",
-  "forceUpdate": false
+  "forceUpdate": false,
+  "size": 19765637
 }
