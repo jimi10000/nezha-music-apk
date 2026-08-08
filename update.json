@@ -1,10 +1,10 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.27-car",
-  "versionCode": 130003,
-  "tagName": "v3.0.27-car",
-  "apkName": "fenghuolun-music-v3.0.27-car-arm64-v8a.apk",
-  "md5": "61732A08A6275EF3AD4BECFDEEB67479",
-  "description": "取消流量类型限制：蜂窝网络与 WiFi 均可直接播放、缓存与下载，不再区分网络环境。新增双屏显示适配，悬浮窗支持主屏/副屏目标切换（setDisplayTarget）。悬浮窗新增搜索入口与搜索弹窗。悬浮窗默认歌词字体放大至 21sp，应用内歌词字体同步放大（竖屏 240 / 横屏 250）。同步版本号至 3.0.27-car，arm64 最终 versionCode 为 130003。播放源重复问题此前已基于持久化列表去重修复。",
+  "versionName": "3.0.28-car",
+  "versionCode": 130004,
+  "tagName": "v3.0.28-car",
+  "apkName": "fenghuolun-music-v3.0.28-car-arm64-v8a.apk",
+  "md5": "c253887b982e6ad880fb8507596c4594",
+  "description": "音律灯（RhythmLight）功能上车，K歌入口已隐藏。推荐更新。",
   "forceUpdate": false
 }
