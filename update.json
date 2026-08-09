@@ -1,11 +1,11 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.52-car",
-  "versionCode": 162003,
-  "tagName": "v3.0.52",
-  "apkName": "fenghuolun-music-v3.0.52-car-arm64-v8a.apk",
-  "md5": "F0F613D51055421FCE874147FBB3D663",
-  "description": "本次更新：① 全新无边框应用图标（深灰底 + 透明图形，更贴合座舱风格）。② 边缘音律灯扩充至 36 种（原有 12 种 + 参数化引擎新增 24 种命名风格，含雷达扫掠、数码雨、霓虹网格、银河旋臂等）。③ 下掉搜索栏「远程点歌」二维码与设置页「日志二维码」，精简界面；保留通用的「手机远程输入」局域网输入能力。④ 修复应用内日志弹窗重复打印「已注册」提示（崩溃捕获器双次注册日志合并为一行，重链细节仅进 logcat）。建议更新。",
+  "versionName": "3.0.53-car",
+  "versionCode": 163003,
+  "tagName": "v3.0.53",
+  "apkName": "fenghuolun-music-v3.0.53-car-arm64-v8a.apk",
+  "md5": "826a225626b30d4cfe763bdeddc8b204",
+  "description": "本次更新：① 修复应用内「软件已是最新」误判（车机检测不到新版）问题。② 新增 cdn.jsdmirror.com 国内直发镜像作为 update.json 探测的首选源（HTTP 200 直发，无 302 跳链，替代易被车机网络吞掉的 GitHub raw / 多跳重定向的 Gitee raw），实测对车机最稳。③ 与之前版本的差异：v3.0.52 的图标 + 音律灯 36 种 + 双注册日志修复等全部保留。建议更新。",
   "forceUpdate": false,
-  "size": 20747508
+  "size": 20747333
 }
