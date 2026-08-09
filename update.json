@@ -1,11 +1,11 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.53-car",
-  "versionCode": 163003,
-  "tagName": "v3.0.53",
-  "apkName": "fenghuolun-music-v3.0.53-car-arm64-v8a.apk",
-  "md5": "826a225626b30d4cfe763bdeddc8b204",
-  "description": "本次更新：① 修复应用内「软件已是最新」误判（车机检测不到新版）问题。② 新增 cdn.jsdmirror.com 国内直发镜像作为 update.json 探测的首选源（HTTP 200 直发，无 302 跳链，替代易被车机网络吞掉的 GitHub raw / 多跳重定向的 Gitee raw），实测对车机最稳。③ 与之前版本的差异：v3.0.52 的图标 + 音律灯 36 种 + 双注册日志修复等全部保留。建议更新。",
+  "versionName": "3.0.54-car",
+  "versionCode": 164003,
+  "tagName": "v3.0.54",
+  "apkName": "fenghuolun-music-v3.0.54-car-arm64-v8a.apk",
+  "md5": "d8fa47a6338c6b692098d77718f8cecb",
+  "description": "本次更新（专门解决你截图里看到的 3 个问题）：① ANR 看门狗「检测到主线程卡死即立即主动 killProcess」，修复主线程被同步活锁 17 分钟才被释放的 bug（阈值从连续 2 次改成 1 次，dump 文件先落盘再杀，确保可取证）。② 新增 onTrimMemory 内存预警钩子（ComponentCallbacks2），系统主动回调时按 RUNNING_LOW / RUNNING_CRITICAL 等级释放环形缓冲和过期日志，建议 GC；不轮询、不强制 System.gc、不阻塞主线程。③ 与之前版本的差异：v3.0.53 的 jsdmirror 国内镜像源、v3.0.52 的双注册日志去重、图标 + 音律灯 36 种等全部保留。建议更新。",
   "forceUpdate": false,
-  "size": 20747333
+  "size": 20747942
 }
