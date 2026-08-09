@@ -1,11 +1,11 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.55-car",
-  "versionCode": 165003,
-  "tagName": "v3.0.55",
-  "apkName": "fenghuolun-music-v3.0.55-car-arm64-v8a.apk",
-  "md5": "e92683c6aa25ce740acfc0402d271176",
-  "description": "本次更新（修复「老是卡死崩溃」的 JS 层 TypeError）：① 歌词桌面窗口位置字段 textPositionX/Y 为空时报「Cannot read property 'toUpperCase' of undefined」——已在桥接层与调用方做双保险兜底（默认 left/top）。② 播放列表渲染 MusicList ListItem 中 item.source 为空时在 render 阶段崩溃（调用栈 renderWithHooks -> beginWork）——已加可选链 + 空串兜底。③ 保留 v3.0.54 的 ANR 首次即杀 + onTrimMemory 内存预警、v3.0.53 的 jsdmirror 国内镜像源、v3.0.52 的双注册日志去重。建议更新。",
+  "versionName": "3.0.56-car",
+  "versionCode": 166003,
+  "tagName": "v3.0.56",
+  "apkName": "fenghuolun-music-v3.0.56-car-arm64-v8a.apk",
+  "md5": "c4fd2277706dea2b8e35b551c15dcdf1",
+  "description": "本次更新（专门修复「能看见更新但下载条不动/下载不了」）：① 根因是应用内下载主源被写死成 jsDelivr 的 @releases/download 路径，而该路径对 GitHub Release 附件恒返回 404（jsDelivr 只代理 git 仓库文件、不代理 Release 资产），导致主源必失败；第一备用源 GitHub 跳境外 objects.githubusercontent.com 车机基本不通/极慢，要卡 30 秒以上才轮到最后一个 Gitee 源，期间进度条一个字节都收不到 → 表现为「下载条不动」。② 已把主下载源改为 Gitee Release 国内直链（实测 302 跟随可达、国内最稳），GitHub 仅作境外备用兜底，彻底删除 jsDelivr @releases 这个 404 废源。③ 与之前版本的差异：v3.0.55 的 toUpperCase 崩溃兜底、v3.0.54 的 ANR 首次即杀 + onTrimMemory 内存预警、v3.0.53 的 jsdmirror 镜像源、v3.0.52 的双注册日志去重全部保留。建议更新（首次升级若应用内仍慢，可直接用浏览器打开 Gitee 下载直链手动安装，装完后再升级即走国内源秒下）。",
   "forceUpdate": false,
-  "size": 20747977
+  "size": 20748115
 }
