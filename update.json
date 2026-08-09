@@ -1,11 +1,11 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.54-car",
-  "versionCode": 164003,
-  "tagName": "v3.0.54",
-  "apkName": "fenghuolun-music-v3.0.54-car-arm64-v8a.apk",
-  "md5": "d8fa47a6338c6b692098d77718f8cecb",
-  "description": "本次更新（专门解决你截图里看到的 3 个问题）：① ANR 看门狗「检测到主线程卡死即立即主动 killProcess」，修复主线程被同步活锁 17 分钟才被释放的 bug（阈值从连续 2 次改成 1 次，dump 文件先落盘再杀，确保可取证）。② 新增 onTrimMemory 内存预警钩子（ComponentCallbacks2），系统主动回调时按 RUNNING_LOW / RUNNING_CRITICAL 等级释放环形缓冲和过期日志，建议 GC；不轮询、不强制 System.gc、不阻塞主线程。③ 与之前版本的差异：v3.0.53 的 jsdmirror 国内镜像源、v3.0.52 的双注册日志去重、图标 + 音律灯 36 种等全部保留。建议更新。",
+  "versionName": "3.0.55-car",
+  "versionCode": 165003,
+  "tagName": "v3.0.55",
+  "apkName": "fenghuolun-music-v3.0.55-car-arm64-v8a.apk",
+  "md5": "e92683c6aa25ce740acfc0402d271176",
+  "description": "本次更新（修复「老是卡死崩溃」的 JS 层 TypeError）：① 歌词桌面窗口位置字段 textPositionX/Y 为空时报「Cannot read property 'toUpperCase' of undefined」——已在桥接层与调用方做双保险兜底（默认 left/top）。② 播放列表渲染 MusicList ListItem 中 item.source 为空时在 render 阶段崩溃（调用栈 renderWithHooks -> beginWork）——已加可选链 + 空串兜底。③ 保留 v3.0.54 的 ANR 首次即杀 + onTrimMemory 内存预警、v3.0.53 的 jsdmirror 国内镜像源、v3.0.52 的双注册日志去重。建议更新。",
   "forceUpdate": false,
-  "size": 20747942
+  "size": 20747977
 }
