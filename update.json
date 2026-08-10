@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.68-car",
-  "versionCode": 178003,
-  "tagName": "v3.0.68",
-  "apkName": "fenghuolun-music-v3.0.68-car-arm64-v8a.apk",
-  "md5": "7c2f098d214cef555a105e6f89cce7b7",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.0.68/fenghuolun-music-v3.0.68-car-arm64-v8a.apk",
+  "versionName": "3.0.71-car",
+  "versionCode": 181003,
+  "tagName": "v3.0.71",
+  "apkName": "fenghuolun-music-v3.0.71-car-arm64-v8a.apk",
+  "md5": "ee407b15765cc458d793be96a77629ba",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.0.71/fenghuolun-music-v3.0.71-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.0.68/fenghuolun-music-v3.0.68-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.0.71/fenghuolun-music-v3.0.71-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 v3.0.68：系统 Back 回退迁移到 OnBackPressedDispatcher（替换废弃的 Activity.onBackPressed），兼容返回键 / 全面屏手势 / 预测返回手势（Android 13+）。首页消费 Back 事件 → moveTaskToBack 退后台，不 finish、不销毁 Activity、不杀进程、应用驻留后台；非首页交由 RNN 回退栈弹栈返回上一级。行为与上版完全一致，仅升级为现代 Back 处理 API，消除废弃 API 警告。",
+  "description": "风火轮音乐车载版 v3.0.71：1) 歌单页与播放详情页统一新增「左侧边缘右滑返回」手势——从屏幕最左侧 8% 区域向右滑动超过 100 像素即触发返回、直接回到应用首页，与车机物理返回键逻辑保持一致；原有点击与播放逻辑不受影响。2) 副屏悬浮窗输入法修复（同屏上下文 + 动态申请焦点 + 显式拉起输入法，副屏未放行系统装饰则自动降级主屏）。3) 系统返回事件保持后台驻留不退出（分发器栈底永久兜底回调 moveTaskToBack）。4) 首页 Home 按钮恢复回车机桌面原功能。",
   "forceUpdate": false,
-  "size": 20657174
+  "size": 20659159
 }
