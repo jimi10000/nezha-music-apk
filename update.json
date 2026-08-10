@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.71-car",
-  "versionCode": 181003,
-  "tagName": "v3.0.71",
-  "apkName": "fenghuolun-music-v3.0.71-car-arm64-v8a.apk",
-  "md5": "ee407b15765cc458d793be96a77629ba",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.0.71/fenghuolun-music-v3.0.71-car-arm64-v8a.apk",
+  "versionName": "3.0.72-car",
+  "versionCode": 182003,
+  "tagName": "v3.0.72",
+  "apkName": "fenghuolun-music-v3.0.72-car-arm64-v8a.apk",
+  "md5": "d6563ba126dcf59266a3f44230d1aa56",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.0.72/fenghuolun-music-v3.0.72-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.0.71/fenghuolun-music-v3.0.71-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.0.72/fenghuolun-music-v3.0.72-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 v3.0.71：1) 歌单页与播放详情页统一新增「左侧边缘右滑返回」手势——从屏幕最左侧 8% 区域向右滑动超过 100 像素即触发返回、直接回到应用首页，与车机物理返回键逻辑保持一致；原有点击与播放逻辑不受影响。2) 副屏悬浮窗输入法修复（同屏上下文 + 动态申请焦点 + 显式拉起输入法，副屏未放行系统装饰则自动降级主屏）。3) 系统返回事件保持后台驻留不退出（分发器栈底永久兜底回调 moveTaskToBack）。4) 首页 Home 按钮恢复回车机桌面原功能。",
+  "description": "风火轮音乐车载版 v3.0.72：1)【重要修复】全面屏手势导航（系统左滑返回）下，歌单页/播放详情页「左侧边缘右滑返回首页」手势此前被系统手势热区吞掉、在真机/车机上不生效；本次通过 setSystemGestureExclusionRects 将页面最左 8% 边缘从系统手势区排除，APP 可完整接收滑动，左滑返回现已在手势导航设备正常生效（与物理返回键逻辑一致）。2) 副屏悬浮窗输入法修复（同屏上下文 + 动态申请焦点 + 显式拉起输入法，副屏未放行系统装饰则自动降级主屏）。3) 系统返回事件保持后台驻留不退出。4) 首页 Home 按钮恢复回车机桌面原功能。",
   "forceUpdate": false,
-  "size": 20659159
+  "size": 20659124
 }
