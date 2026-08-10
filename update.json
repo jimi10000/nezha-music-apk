@@ -1,16 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.67-car",
-  "versionCode": 177003,
-  "tagName": "v3.0.67",
-  "apkName": "fenghuolun-music-v3.0.67-car-arm64-v8a.apk",
-  "md5": "cd237d3532f3d441ea245a6bba3351c0",
-  "size": 20657218,
-  "description": "本次更新（彻底修复「退出重进 UI 假死」+ 悬浮窗生命周期重构）：① 根因是 JS 端 exitApp 与原生 moveTaskToBack 语义矛盾 + START_STICKY 悬浮窗服务被系统重建后旧 View 仍挂 WindowManager 但回调指向死 Service；改为退出 = 主界面+悬浮窗+常驻服务全停 → finishAndRemoveTask → 延迟 450ms killProcess，下次进入必为冷启动干净状态。② FloatWindowManager 改为进程级单例（getInstance 强制 applicationContext，peekInstance/releaseInstance 兜底），避免 START_STICKY 重建时复用旧实例；show/hide/destroy/discardView 全部经主线程 Handler（uiHandler），保证窗口操作不跨线程。③ 桌面歌词 LyricView 一律使用 applicationContext 取 WindowManager 与创建控件，消除 Activity/ReactContext 被长生命周期悬浮窗持有导致的泄漏与窗口失联；destroyView 改用 removeViewImmediate + 异常吞掉，保证彻底清理。④ 边缘灯 EdgeVisualizerWindowManager 同步改用 applicationContext，行为一致。模拟器 PID 改变三轮测试通过，旧进程被彻底杀死。建议更新。",
-  "forceUpdate": false,
-  "apkUrl": "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.0.67/fenghuolun-music-v3.0.67-car-arm64-v8a.apk",
+  "versionName": "3.0.68-car",
+  "versionCode": 178003,
+  "tagName": "v3.0.68",
+  "apkName": "fenghuolun-music-v3.0.68-car-arm64-v8a.apk",
+  "md5": "7c2f098d214cef555a105e6f89cce7b7",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.0.68/fenghuolun-music-v3.0.68-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://gitee.com/jimi10000/nezha-music-apk/attach_files/download?fname=releases%2Fv3.0.67%2Ffenghuolun-music-v3.0.67-car-arm64-v8a.apk",
-    "https://release.gz.kugou.net/fenghuolun/fenghuolun-music-v3.0.67-car-arm64-v8a.apk"
-  ]
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.0.68/fenghuolun-music-v3.0.68-car-arm64-v8a.apk"
+  ],
+  "description": "风火轮音乐车载版 v3.0.68：系统 Back 回退迁移到 OnBackPressedDispatcher（替换废弃的 Activity.onBackPressed），兼容返回键 / 全面屏手势 / 预测返回手势（Android 13+）。首页消费 Back 事件 → moveTaskToBack 退后台，不 finish、不销毁 Activity、不杀进程、应用驻留后台；非首页交由 RNN 回退栈弹栈返回上一级。行为与上版完全一致，仅升级为现代 Back 处理 API，消除废弃 API 警告。",
+  "forceUpdate": false,
+  "size": 20657174
 }
