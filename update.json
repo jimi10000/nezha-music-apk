@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.74-car",
-  "versionCode": 184003,
-  "tagName": "v3.0.74",
-  "apkName": "fenghuolun-music-v3.0.74-car-arm64-v8a.apk",
-  "md5": "51491418201897da6efecde88897b1d1",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.0.74/fenghuolun-music-v3.0.74-car-arm64-v8a.apk",
+  "versionName": "3.0.75-car",
+  "versionCode": 185003,
+  "tagName": "v3.0.75",
+  "apkName": "fenghuolun-music-v3.0.75-car-arm64-v8a.apk",
+  "md5": "a3e262505346b68dc3d92e4c679ec86c",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.0.75/fenghuolun-music-v3.0.75-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.0.74/fenghuolun-music-v3.0.74-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.0.75/fenghuolun-music-v3.0.75-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 v3.0.74：1)【手势永不退出】首页系统返回手势（物理返回键/全面屏手势/预测返回手势）不再退后台或退出，直接消费事件留在 App 内；原「首页双滑退出」逻辑已于 v3.0.73 删除，本次彻底取消任何手势退后台。2) 全局左边缘右滑回首页保持（任意界面一次左滑即回应用首页，清空导航栈）。3) 任何手势均不会杀进程、不中断后台播放；仅在应用内显式「退出」按钮才会真正退出。4) 系统返回键/手势在非首页仍走 RNN 回退栈逐级返回上一级。",
+  "description": "风火轮音乐车载版 v3.0.75：修复「首页返回键/左滑手势误退出应用」——移除 Home 首页残留的 JS 双击返回退出逻辑（此前各版本只改了原生层，该 JS 双击退出一直未清理，导致按返回键两次即杀进程退出）。现在：1)【手势永不退出】任意界面一次左滑回首页；首页系统返回键/手势直接留在 App 内，不退出、不退后台、不杀进程；2) 仅在应用内显式「退出」按钮才真正退出；3) 非首页系统返回仍走 RNN 回退栈逐级返回。已通过模拟器实测：连按返回键 5 次、左边缘右滑均不退出。",
   "forceUpdate": false,
-  "size": 20657844
+  "size": 20657482
 }
