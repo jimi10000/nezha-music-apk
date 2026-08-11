@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.77-car",
-  "versionCode": 187003,
-  "tagName": "v3.0.77",
-  "apkName": "fenghuolun-music-v3.0.77-car-arm64-v8a.apk",
-  "md5": "6bf54994e3e3143fb6da27c739a2a892",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.0.77/fenghuolun-music-v3.0.77-car-arm64-v8a.apk",
+  "versionName": "3.0.78-car",
+  "versionCode": 188003,
+  "tagName": "v3.0.78",
+  "apkName": "fenghuolun-music-v3.0.78-car-arm64-v8a.apk",
+  "md5": "20c1261c323082c0102fc5407d9657e2",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.0.78/fenghuolun-music-v3.0.78-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.0.77/fenghuolun-music-v3.0.77-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.0.78/fenghuolun-music-v3.0.78-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.0.77：新增「网络电台」模块。\n1) 底部导航新增独立「电台」Tab，数据源 radio-browser.info 公共 API（多镜像自动切换 + 5 分钟缓存）。\n2) 分类浏览：热门 / 华语 / 国内，并支持按名称搜索；自动过滤空地址、非 http 协议、码率 >128kbps、官方标记失效的电台。\n3) 播放复用现有 RNTP 链路，音频焦点 / 通知栏 / 方向盘按键 / JamesDSP 均衡器 / 睡眠定时全部生效，断流自动重连（最多 3 次）；电台与歌曲播放互斥，播电台自动顶掉歌曲、播歌曲自动退出电台态。\n4) 电台收藏：独立数据表（与歌曲收藏物理隔离），列表项一键收藏，收藏页新增「电台收藏」Tab。\n5) 电台历史：独立数据表，设置页可设「历史最大条数」(20/50/100/200/500) 与「一键清理失效链接」(4 路并发探测)。\n6) 收藏页 / 历史页均新增【歌曲 | 电台】双 Tab，激活「最近播放」时自动切换为历史语义。\n7) 数据物理隔离：电台与歌曲的收藏 / 历史使用完全独立的存储命名空间、内存索引与事件通道，互不影响。\n本版同时包含 3.0.76 的「被杀后台后语音助手仍可唤出播放」能力。",
+  "description": "风火轮音乐车载版 3.0.78：夜间模式统一车机配色 + 应用内更新安装修复 + 悬浮窗增强 + 电台数据接入全局备份。\n#257 夜间模式统一车机配色：夜间主题改为黑灰底 + 科技蓝主色（rgb(61,139,242)），悬浮窗播放按钮、默认封面音符、设置页 chip / 错误重试等所有硬编码橙红（#FF6B35）统一改为科技蓝（#3D8BF2）。\n#258 应用内更新安装修复：改用 PackageInstaller Session API 安装下载好的 APK，解决 AAOS 后台 startActivity 受限、部分 ROM 无 installer activity 导致的「下载后装不上」；保留 MD5 校验与未知来源权限兜底。\n#259 悬浮窗增强：新增「应用前台也显示」总开关（默认仅回桌面显示，开启后 App 内同屏 / 分屏也保留悬浮窗）；新增内置「覆盖主屏媒体区」模板（一键切主屏、底部横向铺满 92%% x 26%%、简约车载皮肤，盖住车机原生媒体卡片）；设置页新增独立按钮调用。AppState active 支持前台保留。\n#272 电台数据接入全局备份：导出 / 导入「所有数据」现已包含电台收藏与电台历史（与歌曲物理隔离的分表一并备份恢复）。",
   "forceUpdate": false,
-  "size": 20684122
+  "size": 20691606
 }
