@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.76-car",
-  "versionCode": 186003,
-  "tagName": "v3.0.76",
-  "apkName": "fenghuolun-music-v3.0.76-car-arm64-v8a.apk",
-  "md5": "cce46b4b341c7b39c0be3be0fc369713",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.0.76/fenghuolun-music-v3.0.76-car-arm64-v8a.apk",
+  "versionName": "3.0.77-car",
+  "versionCode": 187003,
+  "tagName": "v3.0.77",
+  "apkName": "fenghuolun-music-v3.0.77-car-arm64-v8a.apk",
+  "md5": "6bf54994e3e3143fb6da27c739a2a892",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.0.77/fenghuolun-music-v3.0.77-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.0.76/fenghuolun-music-v3.0.76-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.0.77/fenghuolun-music-v3.0.77-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 v3.0.76：新增「被杀后台后语音助手仍能唤出播放」。此前 App 进程被系统清后台后，MCP 内置 HTTP 服务随进程一起死掉、冷启动时 JS 监听器又尚未注册，导致语音指令丢失。本版新增进程外静态唤醒入口（VoiceWakeReceiver）+ 命令缓冲重放机制：语音助手（美式AI/MCP/系统语音搜索）发出的播放指令先写入本地缓冲并冷启动 App，待 JS 就绪后自动重放——「播放/暂停/下一曲/上一曲/搜歌」全部可在杀后台后冷启动唤出。同时保留既有的 fenghuolun-music://voice 深链与 MEDIA_PLAY_FROM_SEARCH 系统语音入口。",
+  "description": "风火轮音乐车载版 3.0.77：新增「网络电台」模块。\n1) 底部导航新增独立「电台」Tab，数据源 radio-browser.info 公共 API（多镜像自动切换 + 5 分钟缓存）。\n2) 分类浏览：热门 / 华语 / 国内，并支持按名称搜索；自动过滤空地址、非 http 协议、码率 >128kbps、官方标记失效的电台。\n3) 播放复用现有 RNTP 链路，音频焦点 / 通知栏 / 方向盘按键 / JamesDSP 均衡器 / 睡眠定时全部生效，断流自动重连（最多 3 次）；电台与歌曲播放互斥，播电台自动顶掉歌曲、播歌曲自动退出电台态。\n4) 电台收藏：独立数据表（与歌曲收藏物理隔离），列表项一键收藏，收藏页新增「电台收藏」Tab。\n5) 电台历史：独立数据表，设置页可设「历史最大条数」(20/50/100/200/500) 与「一键清理失效链接」(4 路并发探测)。\n6) 收藏页 / 历史页均新增【歌曲 | 电台】双 Tab，激活「最近播放」时自动切换为历史语义。\n7) 数据物理隔离：电台与歌曲的收藏 / 历史使用完全独立的存储命名空间、内存索引与事件通道，互不影响。\n本版同时包含 3.0.76 的「被杀后台后语音助手仍可唤出播放」能力。",
   "forceUpdate": false,
-  "size": 20660857
+  "size": 20684122
 }
