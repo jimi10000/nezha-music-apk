@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.78-car",
-  "versionCode": 188003,
-  "tagName": "v3.0.78",
-  "apkName": "fenghuolun-music-v3.0.78-car-arm64-v8a.apk",
-  "md5": "20c1261c323082c0102fc5407d9657e2",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.0.78/fenghuolun-music-v3.0.78-car-arm64-v8a.apk",
+  "versionName": "3.0.79-car",
+  "versionCode": 189003,
+  "tagName": "v3.0.79",
+  "apkName": "fenghuolun-music-v3.0.79-car-arm64-v8a.apk",
+  "md5": "9ab2f1507d619cd25e34513d0d19b23a",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.0.79/fenghuolun-music-v3.0.79-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.0.78/fenghuolun-music-v3.0.78-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.0.79/fenghuolun-music-v3.0.79-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.0.78：夜间模式统一车机配色 + 应用内更新安装修复 + 悬浮窗增强 + 电台数据接入全局备份。\n#257 夜间模式统一车机配色：夜间主题改为黑灰底 + 科技蓝主色（rgb(61,139,242)），悬浮窗播放按钮、默认封面音符、设置页 chip / 错误重试等所有硬编码橙红（#FF6B35）统一改为科技蓝（#3D8BF2）。\n#258 应用内更新安装修复：改用 PackageInstaller Session API 安装下载好的 APK，解决 AAOS 后台 startActivity 受限、部分 ROM 无 installer activity 导致的「下载后装不上」；保留 MD5 校验与未知来源权限兜底。\n#259 悬浮窗增强：新增「应用前台也显示」总开关（默认仅回桌面显示，开启后 App 内同屏 / 分屏也保留悬浮窗）；新增内置「覆盖主屏媒体区」模板（一键切主屏、底部横向铺满 92% x 26%、简约车载皮肤，盖住车机原生媒体卡片）；设置页新增独立按钮调用。AppState active 支持前台保留。\n#272 电台数据接入全局备份：导出 / 导入「所有数据」现已包含电台收藏与电台历史（与歌曲物理隔离的分表一并备份恢复）。",
+  "description": "风火轮音乐车载版 3.0.79：内置「覆盖主屏媒体区」模板支持完全自定义 + 可取消。\n#282 原生 Manager 支持控件独立开关（封面/歌名/歌手/歌词/上一曲/播放暂停/下一曲/搜索/进度条，位掩码控制，可有可无）、自定义尺寸无上限、首次套用自动备份原配置供取消还原。\n#283 原生 Module/Service 新增 applyMediaAreaTemplate(configJson)/cancelMediaAreaTemplate()/getMediaTemplateConfig() 桥接。\n#284 JS 桥与设置页自定义 UI：每个控件 chip 开关、宽高自由输入、套用/取消按钮。\n#285 类型校验与构建 arm64 release APK。",
   "forceUpdate": false,
-  "size": 20691606
+  "size": 20695712
 }
