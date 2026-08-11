@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.79-car",
-  "versionCode": 189003,
-  "tagName": "v3.0.79",
-  "apkName": "fenghuolun-music-v3.0.79-car-arm64-v8a.apk",
-  "md5": "9ab2f1507d619cd25e34513d0d19b23a",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.0.79/fenghuolun-music-v3.0.79-car-arm64-v8a.apk",
+  "versionName": "3.0.80-car",
+  "versionCode": 190003,
+  "tagName": "v3.0.80",
+  "apkName": "fenghuolun-music-v3.0.80-car-arm64-v8a.apk",
+  "md5": "fad672060c4a4da4c0f2d1390b3c2b84",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.0.80/fenghuolun-music-v3.0.80-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.0.79/fenghuolun-music-v3.0.79-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.0.80/fenghuolun-music-v3.0.80-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.0.79：内置「覆盖主屏媒体区」模板支持完全自定义 + 可取消。\n#282 原生 Manager 支持控件独立开关（封面/歌名/歌手/歌词/上一曲/播放暂停/下一曲/搜索/进度条，位掩码控制，可有可无）、自定义尺寸无上限、首次套用自动备份原配置供取消还原。\n#283 原生 Module/Service 新增 applyMediaAreaTemplate(configJson)/cancelMediaAreaTemplate()/getMediaTemplateConfig() 桥接。\n#284 JS 桥与设置页自定义 UI：每个控件 chip 开关、宽高自由输入、套用/取消按钮。\n#285 类型校验与构建 arm64 release APK。",
+  "description": "风火轮音乐车载版 3.0.80：电台「国内」分类改用内置中文台单，不再依赖国内常被墙的 radio-browser.info。\n新增内置中文电台台单模块 builtinCn.ts：收录 28 个经可达性探测验证的央广/国际台/省市台直链（中国之声、经济之声、CRI 环球资讯/华语环球/南海之声、云南×4、吉林×3、佛山×3、浙江×3、新疆×2、上海、陕西、京津冀、四川、河北、黑龙江、内蒙古等），离线可浏览台单、断网也能看到列表。\n电台页「国内」Tab 数据源切换为内置台单；热门/华语/搜索仍走 radio-browser.info 多镜像作为海外/全局兜底。\n类型校验 0 错误 + 重打 bundle + 构建 arm64 release APK（v3.0.80-car / vc 190003）。",
   "forceUpdate": false,
-  "size": 20695712
+  "size": 20696688
 }
