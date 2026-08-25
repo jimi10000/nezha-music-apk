@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.1.9-car",
-  "versionCode": 229003,
-  "tagName": "v3.1.9",
-  "apkName": "fenghuolun-music-v3.1.9-car-arm64-v8a.apk",
-  "md5": "dc8977cc25fcbc525731a09a9b1808b0",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.1.9/fenghuolun-music-v3.1.9-car-arm64-v8a.apk",
+  "versionName": "3.2.0-car",
+  "versionCode": 230003,
+  "tagName": "v3.2.0",
+  "apkName": "fenghuolun-music-v3.2.0-car-arm64-v8a.apk",
+  "md5": "5112f20955d0789c7df12d66d4fe8a01",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.0/fenghuolun-music-v3.2.0-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.1.9/fenghuolun-music-v3.1.9-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.0/fenghuolun-music-v3.2.0-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.1.9：悬浮窗歌词超大多行 + 单击返回应用/双击播放暂停。\n\n更新内容：\n- 【歌词字体大两倍+多行】当前句 17→30sp 加粗、最长两行自动换行；上下句 13→18sp，\n  开车也能看清歌词\n- 【单击/双击交互】点击悬浮窗空白区域：单击返回应用首页，双击播放/暂停\n  （拖动贴边不受影响；「更多」面板「打开应用」入口保留）\n- 【恢复返回应用】更多面板新增「打开应用」；点击封面/歌名也可回 App 主界面\n- 新旧代码冲突检查：老 FloatWindowManager 播放窗已停用、独立桌面歌词窗口已移除、\n  双份歌词 action 已在转发层归一，无残留冲突",
+  "description": "风火轮音乐车载版 3.2.0：语音歌手全集播放「来一首XX所有的歌」！\n\n更新内容：\n- 【语音歌手全集】说「来一首周杰伦所有的歌 / 播放邓紫棋全部的歌」等，自动抓取该歌手\n  全部歌曲并连续播放（上限 1000 首），支持收藏/切歌/方控，播放途中可随时打断\n- 【智能失败处理】单歌手连续 3 次取歌失败自动冷却 30 秒；全程失败自动恢复原播放队列，\n  不打断当前收听\n- 【优先级抢占】方向盘/手动点歌优先于语音全集，语音全集自动让位\n- 【安全保护】2 秒内重复指令自动去重、黑/白名单歌手过滤、驾驶时 TTS 语音播报进度",
   "forceUpdate": false,
-  "size": 20772264
+  "size": 20791404
 }
