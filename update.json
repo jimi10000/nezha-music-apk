@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.0-car",
-  "versionCode": 230003,
-  "tagName": "v3.2.0",
-  "apkName": "fenghuolun-music-v3.2.0-car-arm64-v8a.apk",
-  "md5": "5112f20955d0789c7df12d66d4fe8a01",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.0/fenghuolun-music-v3.2.0-car-arm64-v8a.apk",
+  "versionName": "3.2.1-car",
+  "versionCode": 231003,
+  "tagName": "v3.2.1",
+  "apkName": "fenghuolun-music-v3.2.1-car-arm64-v8a.apk",
+  "md5": "8aa62ed1453a2da657a53d8272ebdc50",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.1/fenghuolun-music-v3.2.1-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.0/fenghuolun-music-v3.2.0-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.1/fenghuolun-music-v3.2.1-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.0：语音歌手全集播放「来一首XX所有的歌」！\n\n更新内容：\n- 【语音歌手全集】说「来一首周杰伦所有的歌 / 播放邓紫棋全部的歌」等，自动抓取该歌手\n  全部歌曲并连续播放（上限 1000 首），支持收藏/切歌/方控，播放途中可随时打断\n- 【智能失败处理】单歌手连续 3 次取歌失败自动冷却 30 秒；全程失败自动恢复原播放队列，\n  不打断当前收听\n- 【优先级抢占】方向盘/手动点歌优先于语音全集，语音全集自动让位\n- 【安全保护】2 秒内重复指令自动去重、黑/白名单歌手过滤、驾驶时 TTS 语音播报进度",
+  "description": "风火轮音乐车载版 3.2.1：整合三行歌词控件 + 屏蔽K歌/远程输入入口。\n\n更新内容：\n- 【三行歌词控件 LyricThreeLineView】悬浮窗歌词组件全新升级：上一句/当前句/下一句\n  三行布局（上下句小字浅灰、当前句最大高亮+阴影描边），切行播放上下滚动+淡入淡出\n  组合动画，回退/前进方向自适应；防抖、动画熔断、触摸穿透、亮度微调、\n  硬件加速降级等车机适配全面到位\n- 【入口屏蔽】设置-其他页移除「无线拾音K歌」「手机远程输入」入口；\n  搜索框扫码按钮全局隐藏\n- 保留 3.2.0 全部能力：语音歌手全集播放、失败冷却、优先级抢占、安全保护",
   "forceUpdate": false,
-  "size": 20791404
+  "size": 20798614
 }
