@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.0.80-car",
-  "versionCode": 190003,
-  "tagName": "v3.0.80",
-  "apkName": "fenghuolun-music-v3.0.80-car-arm64-v8a.apk",
-  "md5": "fad672060c4a4da4c0f2d1390b3c2b84",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.0.80/fenghuolun-music-v3.0.80-car-arm64-v8a.apk",
+  "versionName": "3.1.9-car",
+  "versionCode": 229003,
+  "tagName": "v3.1.9",
+  "apkName": "fenghuolun-music-v3.1.9-car-arm64-v8a.apk",
+  "md5": "dc8977cc25fcbc525731a09a9b1808b0",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.1.9/fenghuolun-music-v3.1.9-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.0.80/fenghuolun-music-v3.0.80-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.1.9/fenghuolun-music-v3.1.9-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.0.80：电台「国内」分类改用内置中文台单，不再依赖国内常被墙的 radio-browser.info。\n新增内置中文电台台单模块 builtinCn.ts：收录 28 个经可达性探测验证的央广/国际台/省市台直链（中国之声、经济之声、CRI 环球资讯/华语环球/南海之声、云南×4、吉林×3、佛山×3、浙江×3、新疆×2、上海、陕西、京津冀、四川、河北、黑龙江、内蒙古等），离线可浏览台单、断网也能看到列表。\n电台页「国内」Tab 数据源切换为内置台单；热门/华语/搜索仍走 radio-browser.info 多镜像作为海外/全局兜底。\n类型校验 0 错误 + 重打 bundle + 构建 arm64 release APK（v3.0.80-car / vc 190003）。",
+  "description": "风火轮音乐车载版 3.1.9：悬浮窗歌词超大多行 + 单击返回应用/双击播放暂停。\n\n更新内容：\n- 【歌词字体大两倍+多行】当前句 17→30sp 加粗、最长两行自动换行；上下句 13→18sp，\n  开车也能看清歌词\n- 【单击/双击交互】点击悬浮窗空白区域：单击返回应用首页，双击播放/暂停\n  （拖动贴边不受影响；「更多」面板「打开应用」入口保留）\n- 【恢复返回应用】更多面板新增「打开应用」；点击封面/歌名也可回 App 主界面\n- 新旧代码冲突检查：老 FloatWindowManager 播放窗已停用、独立桌面歌词窗口已移除、\n  双份歌词 action 已在转发层归一，无残留冲突",
   "forceUpdate": false,
-  "size": 20696688
+  "size": 20772264
 }
