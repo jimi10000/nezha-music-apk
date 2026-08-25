@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.1-car",
-  "versionCode": 231003,
-  "tagName": "v3.2.1",
-  "apkName": "fenghuolun-music-v3.2.1-car-arm64-v8a.apk",
-  "md5": "8aa62ed1453a2da657a53d8272ebdc50",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.1/fenghuolun-music-v3.2.1-car-arm64-v8a.apk",
+  "versionName": "3.2.2-car",
+  "versionCode": 232003,
+  "tagName": "v3.2.2",
+  "apkName": "fenghuolun-music-v3.2.2-car-arm64-v8a.apk",
+  "md5": "5a4c9cbed1663cd9695b65a874bcd850",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.2/fenghuolun-music-v3.2.2-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.1/fenghuolun-music-v3.2.1-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.2/fenghuolun-music-v3.2.2-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.1：整合三行歌词控件 + 屏蔽K歌/远程输入入口。\n\n更新内容：\n- 【三行歌词控件 LyricThreeLineView】悬浮窗歌词组件全新升级：上一句/当前句/下一句\n  三行布局（上下句小字浅灰、当前句最大高亮+阴影描边），切行播放上下滚动+淡入淡出\n  组合动画，回退/前进方向自适应；防抖、动画熔断、触摸穿透、亮度微调、\n  硬件加速降级等车机适配全面到位\n- 【入口屏蔽】设置-其他页移除「无线拾音K歌」「手机远程输入」入口；\n  搜索框扫码按钮全局隐藏\n- 保留 3.2.0 全部能力：语音歌手全集播放、失败冷却、优先级抢占、安全保护",
+  "description": "风火轮音乐车载版 3.2.2：修复「多行歌词没生效」——三行歌词全链路接通！\n\n更新内容：\n- 【多行歌词真正生效】此前悬浮窗只显示单行当前句。本次打通 JS→RN桥→转发层→FireWheel 全链路三行数据，LyricThreeLineView 控件实际接管渲染：上一句/下一句小字浅灰、当前句最大高亮，切行播放上下滚动+淡入淡出组合动画\n- 【三行索引契约】JSON 数组索引 0=上一句 / 1=当前句 / 2=下一句，空行留白；兼容旧单行推送（当前句居中）\n- 保留 3.2.1 全部能力：三行歌词控件、屏蔽K歌/远程输入入口、语音歌手全集",
   "forceUpdate": false,
-  "size": 20798614
+  "size": 20800315
 }
