@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.3-car",
-  "versionCode": 233003,
-  "tagName": "v3.2.3",
-  "apkName": "fenghuolun-music-v3.2.3-car-arm64-v8a.apk",
-  "md5": "4f22e9d91e498a9005d4ea98bf38560a",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.3/fenghuolun-music-v3.2.3-car-arm64-v8a.apk",
+  "versionName": "3.2.4-car",
+  "versionCode": 234003,
+  "tagName": "v3.2.4",
+  "apkName": "fenghuolun-music-v3.2.4-car-arm64-v8a.apk",
+  "md5": "37b40ad6ecb9c62e96fff12f78d6c1bd",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.4/fenghuolun-music-v3.2.4-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.3/fenghuolun-music-v3.2.3-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.4/fenghuolun-music-v3.2.4-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.3：崩溃日志远程化——出问题可自查、可导出上报！\n\n更新内容：\n- 【崩溃日志独立落盘】全局未捕获异常接管：崩溃瞬间同步写入独立 crash_yyyyMMdd.txt，不再混在主日志里被冲掉；主日志 CRASH 段保留作兜底\n- 【设置页查看/导出】设置-其他-日志页新增「仅看崩溃日志」按钮（只读当天崩溃记录）与「导出日志文件」按钮（主日志+崩溃日志导出到 Download 目录，可发邮件给开发者排查）\n- 【RN 桥接】LogModule 新增 getCrashLog / getCrashLogPath 接口，JS 侧安全包装\n- 保留 3.2.2 全部能力：三行歌词全链路、屏蔽K歌/远程输入入口、语音歌手全集",
+  "description": "风火轮音乐车载版 3.2.4：悬浮窗歌词提速 + 切行衔接优化（针对车主反馈「歌词慢、衔接不自然」）！\n\n更新内容：\n- 【歌词提速】根因：App 退后台后 lrc 播放器内部的 JS 定时器（requestAnimationFrame）被系统节流，逐句触发回调基本失灵，歌词实际靠 1 秒后台轮询兜底 → 切行延迟 0~1 秒。本次将轮询从 1000ms 提速到 300ms（歌词/进度均有去重，只推变化），切行平均延迟降到 ~150ms，跟唱不拖拍\n- 【衔接自然① 方向智能推断】此前悬浮窗回退/快进时一律播放「前进滚动」动画（方向错乱）。现在控件根据文本关系自动判断：新当前句==旧下一句→前进滚动，==旧上一句→回退滚动，seek 跳变→直接切换不滚动\n- 【衔接自然② 触发收紧】当前句没变、仅上一句/下一句微调时不再触发整屏滚动动画，只静态刷新——消除歌词区无故跳动的「生硬感」\n- 保留 3.2.3 全部能力：崩溃日志独立落盘/查看/导出、三行歌词全链路、语音歌手全集",
   "forceUpdate": false,
-  "size": 20801172
+  "size": 20801170
 }
