@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.6-car",
-  "versionCode": 236003,
-  "tagName": "v3.2.6",
-  "apkName": "fenghuolun-music-v3.2.6-car-arm64-v8a.apk",
-  "md5": "14dbd1790206e63ca1a1f0c6a8861fb4",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.6/fenghuolun-music-v3.2.6-car-arm64-v8a.apk",
+  "versionName": "3.2.7-car",
+  "versionCode": 237003,
+  "tagName": "v3.2.7",
+  "apkName": "fenghuolun-music-v3.2.7-car-arm64-v8a.apk",
+  "md5": "5cd9f0a32296952dff5cd28b1780c842",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.7/fenghuolun-music-v3.2.7-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.6/fenghuolun-music-v3.2.6-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.7/fenghuolun-music-v3.2.7-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.6：QQ音乐扫码登录+每日推荐+搜索页「随便听听」。①【QQ音乐登录】设置-其他新增「QQ音乐登录」面板：扫码登录（尽力而为）+手动粘贴Cookie保底（100%可用），登录态经tx_qq_login持久化；②【每日推荐】已登录后搜索页空状态「随便听听」拉取QQ音乐每日推荐30首随机一首播放，未登录兜底热歌榜；③【代码清理】删除远程输入/K歌等死代码（上一版已完成）。双推 Gitee+GitHub。",
+  "description": "风火轮音乐车载版 3.2.7：修复悬浮窗收藏逻辑。①【收藏图标修复】handleTripleTapFavorite 在 addLoveMusic 成功后直接调用 updateFloatWindowLove(true) 同步悬浮窗爱心图标+MediaSession，不依赖 React 侧 useIsCurrentLoved（App 在后台时 ControlBtn 可能未挂载导致图标不同步）；②【排行榜点击整榜播放】点击排行榜名字自动拉取整榜 300 首并播放，与原版落雪行为一致；③【随便听听】搜索页空状态已登录拉每日推荐随机一首，未登录兜底热歌榜，修复 _types 音质字段为空导致的闪退；④【QQ音乐登录+每日推荐】扫码+手动Cookie双模式（借鉴 sensenjian/qq-music-api，MIT）。双推 Gitee+GitHub。",
   "forceUpdate": false,
-  "size": 19164344
+  "size": 19164432
 }
