@@ -4,12 +4,12 @@
   "versionCode": 237003,
   "tagName": "v3.2.7",
   "apkName": "fenghuolun-music-v3.2.7-car-arm64-v8a.apk",
-  "md5": "32b14e62f801a886c3635aa94d089b04",
+  "md5": "a67204b11525587a3cdee5f13c3870f5",
   "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.7/fenghuolun-music-v3.2.7-car-arm64-v8a.apk",
   "fallbackUrls": [
     "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.7/fenghuolun-music-v3.2.7-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.7 重包（同版本同签名覆盖升级，无需清数据）。①【随便听听改成四源并发竞赛】：将原「QQ每日推荐→QQ热歌榜→Kuwo→Kugou」串行 fallback 改为四个源同时发请求、任一返回非空歌单即胜出，每个源 8s 超时当失败；旧串行最坏十几秒且前一路卡死会让后面几路根本等不到，车网抖动时 Toast「选歌失败」——新方案最快 1~2s 出歌，每次必能拿到至少一首。②【导航顺序调整】侧边栏顺序改为 搜索 / 电台 / 歌单 / 榜单 / 收藏 / 设置（电台移到搜索之后）；viewMap、indexMap 及 PagerView 子节点顺序已同步。③【崩溃修复】3.2.7 上一版误裁了 libhermes_executor.so 动态依赖的 5 个 react_render 库，dlopen 失败闪退，已恢复。④【收藏图标】handleTripleTapFavorite 同步 updateFloatWindowLove(true)。⑤【排行榜点整榜播放】+ QQ扫码登录 / 每日推荐，均保留。",
+  "description": "风火轮音乐车载版 3.2.7 重包第2版（同版本同签名覆盖升级，无需清数据）。①【随便听听仍选歌失败→根源修复】上一版四源并发仍失败，根因：Kuwo 的 wbdCrypto AppId 报 code 100004 AppId错误（死源），且单源 8s 超时太长。本次：剔除 Kuwo，换咪咕新歌榜（免登录、实测 code 000000 可达、curl 验证 50 首），单源超时收紧到 6s；现链路 QQ每日推荐(登录才用) / QQ热歌榜 / 咪咕新歌榜 / Kugou TOP500 四源并发，任一先返回非空歌单即胜出。②【电台进搜索页】按老板要求电台放到「搜索页 · 随便听听」正下方：展示内置中文台单（央广/CRI/省市台，离线可浏览），点击直接开播；侧边导航顺序归位 搜索/歌单/榜单/收藏/电台/设置（viewMap/indexMap/PagerView 已同步）。③【崩溃修复】libhermes_executor 裁 so 闪退修复保留。④【收藏图标】handleTripleTapFavorite 同步 updateFloatWindowLove(true)。⑤【排行榜点整榜播放】+ QQ扫码登录 / 每日推荐，均保留。",
   "forceUpdate": false,
-  "size": 19301013
+  "size": 19301728
 }
