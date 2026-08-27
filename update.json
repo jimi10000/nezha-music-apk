@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.7-car",
-  "versionCode": 237003,
-  "tagName": "v3.2.7",
-  "apkName": "fenghuolun-music-v3.2.7-car-arm64-v8a.apk",
-  "md5": "a67204b11525587a3cdee5f13c3870f5",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.7/fenghuolun-music-v3.2.7-car-arm64-v8a.apk",
+  "versionName": "3.2.9-car",
+  "versionCode": 239003,
+  "tagName": "v3.2.9",
+  "apkName": "fenghuolun-music-v3.2.9-car-arm64-v8a.apk",
+  "md5": "3e47f1331009aabec17acd0b8c260bb6",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.9/fenghuolun-music-v3.2.9-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.7/fenghuolun-music-v3.2.7-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.9/fenghuolun-music-v3.2.9-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.7 重包第2版（同版本同签名覆盖升级，无需清数据）。①【随便听听仍选歌失败→根源修复】上一版四源并发仍失败，根因：Kuwo 的 wbdCrypto AppId 报 code 100004 AppId错误（死源），且单源 8s 超时太长。本次：剔除 Kuwo，换咪咕新歌榜（免登录、实测 code 000000 可达、curl 验证 50 首），单源超时收紧到 6s；现链路 QQ每日推荐(登录才用) / QQ热歌榜 / 咪咕新歌榜 / Kugou TOP500 四源并发，任一先返回非空歌单即胜出。②【电台进搜索页】按老板要求电台放到「搜索页 · 随便听听」正下方：展示内置中文台单（央广/CRI/省市台，离线可浏览），点击直接开播；侧边导航顺序归位 搜索/歌单/榜单/收藏/电台/设置（viewMap/indexMap/PagerView 已同步）。③【崩溃修复】libhermes_executor 裁 so 闪退修复保留。④【收藏图标】handleTripleTapFavorite 同步 updateFloatWindowLove(true)。⑤【排行榜点整榜播放】+ QQ扫码登录 / 每日推荐，均保留。",
+  "description": "风火轮音乐车载版 3.2.9：悬浮窗颜色自定义——背景色 + 歌词颜色随心换。①【悬浮窗背景色自定义】桌面悬浮窗（含迷你挂件）支持从 8 色色板选择底色（经典黑/深灰/暖棕/深蓝/墨绿/酒红/纯黑），不选则跟随三套皮肤主题；背景透明度滑块依然生效（颜色与透明度独立控制）；②【悬浮窗歌词颜色自定义】歌词（含上一行弱化 42%）支持 8 色色板（暖橙/亮白/天蓝/荧光绿/樱花粉/柠檬黄/香芋紫），颜色与皮肤解耦、深浅背景都能看清；③【配置联动】新增颜色随「导出/导入配置」一起备份恢复，调试信息同步显示当前颜色；④【3.2.8 迷你挂件保留】只显示歌词+歌名、自由拖动、十字/双指缩放、独立尺寸位置持久化；⑤【3.2.7 修复保留】随便听听四源赛马+电台去死源+崩溃修复+排行榜整榜播放。双推 Gitee+GitHub。",
   "forceUpdate": false,
-  "size": 19301728
+  "size": 19293716
 }
