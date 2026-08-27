@@ -4,12 +4,12 @@
   "versionCode": 237003,
   "tagName": "v3.2.7",
   "apkName": "fenghuolun-music-v3.2.7-car-arm64-v8a.apk",
-  "md5": "5cd9f0a32296952dff5cd28b1780c842",
+  "md5": "15da79b8cd7e984ded87db7d45e53d61",
   "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.7/fenghuolun-music-v3.2.7-car-arm64-v8a.apk",
   "fallbackUrls": [
     "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.7/fenghuolun-music-v3.2.7-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.7：修复悬浮窗收藏逻辑。①【收藏图标修复】handleTripleTapFavorite 在 addLoveMusic 成功后直接调用 updateFloatWindowLove(true) 同步悬浮窗爱心图标+MediaSession，不依赖 React 侧 useIsCurrentLoved（App 在后台时 ControlBtn 可能未挂载导致图标不同步）；②【排行榜点击整榜播放】点击排行榜名字自动拉取整榜 300 首并播放，与原版落雪行为一致；③【随便听听】搜索页空状态已登录拉每日推荐随机一首，未登录兜底热歌榜，修复 _types 音质字段为空导致的闪退；④【QQ音乐登录+每日推荐】扫码+手动Cookie双模式（借鉴 sensenjian/qq-music-api，MIT）。双推 Gitee+GitHub。",
+  "description": "风火轮音乐车载版 3.2.7：修复启动闪退（libreact_render_runtimescheduler.so 缺失）。①【崩溃修复】build.gradle packaging.jniLibs.excludes 误裁了 libhermes_executor.so 动态依赖的 5 个 react_render 库（runtimescheduler/core/graphics/mapbuffer/debug），导致 dlopen 失败 → UnsatisfiedLinkError 闪退，已从 excludes 中移除这 5 个库；②【收藏图标修复】handleTripleTapFavorite 在 addLoveMusic 成功后直接调用 updateFloatWindowLove(true) 同步悬浮窗爱心图标+MediaSession；③【排行榜点击整榜播放】点击排行榜名字自动拉取整榜 300 首并播放；④【随便听听】搜索页空状态已登录拉每日推荐，未登录兜底热歌榜；⑤【QQ音乐登录+每日推荐】扫码+手动Cookie双模式（借鉴 sensenjian/qq-music-api，MIT）。双推 Gitee+GitHub。",
   "forceUpdate": false,
-  "size": 19164432
+  "size": 19299720
 }
