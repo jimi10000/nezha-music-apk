@@ -4,12 +4,12 @@
   "versionCode": 237003,
   "tagName": "v3.2.7",
   "apkName": "fenghuolun-music-v3.2.7-car-arm64-v8a.apk",
-  "md5": "975c6bc5e526258799e852f83c9de08a",
+  "md5": "32b14e62f801a886c3635aa94d089b04",
   "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.7/fenghuolun-music-v3.2.7-car-arm64-v8a.apk",
   "fallbackUrls": [
     "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.7/fenghuolun-music-v3.2.7-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.7：修复启动闪退（libreact_render_runtimescheduler.so 缺失）+ 随便听听选歌失败。①【崩溃修复】build.gradle packaging.jniLibs.excludes 误裁了 libhermes_executor.so 动态依赖的 5 个 react_render 库（runtimescheduler/core/graphics/mapbuffer/debug），导致 dlopen 失败 → UnsatisfiedLinkError 闪退，已从 excludes 中移除这 5 个库；②【收藏图标修复】handleTripleTapFavorite 在 addLoveMusic 成功后直接调用 updateFloatWindowLove(true) 同步悬浮窗爱心图标+MediaSession；③【排行榜点击整榜播放】点击排行榜名字自动拉取整榜 300 首并播放；④【随便听听修复】getRandomListenList 改为多源 fallback 链路：QQ每日推荐 → QQ热歌榜(多日期自动回退 今天/昨天/前天) → Kuwo热歌榜 → Kugou TOP500，任一路成功即返回列表，全部失败才弹「选歌失败」；⑤【QQ音乐登录+每日推荐】扫码+手动Cookie双模式（借鉴 sensenjian/qq-music-api，MIT）。双推 Gitee+GitHub。",
+  "description": "风火轮音乐车载版 3.2.7 重包（同版本同签名覆盖升级，无需清数据）。①【随便听听改成四源并发竞赛】：将原「QQ每日推荐→QQ热歌榜→Kuwo→Kugou」串行 fallback 改为四个源同时发请求、任一返回非空歌单即胜出，每个源 8s 超时当失败；旧串行最坏十几秒且前一路卡死会让后面几路根本等不到，车网抖动时 Toast「选歌失败」——新方案最快 1~2s 出歌，每次必能拿到至少一首。②【导航顺序调整】侧边栏顺序改为 搜索 / 电台 / 歌单 / 榜单 / 收藏 / 设置（电台移到搜索之后）；viewMap、indexMap 及 PagerView 子节点顺序已同步。③【崩溃修复】3.2.7 上一版误裁了 libhermes_executor.so 动态依赖的 5 个 react_render 库，dlopen 失败闪退，已恢复。④【收藏图标】handleTripleTapFavorite 同步 updateFloatWindowLove(true)。⑤【排行榜点整榜播放】+ QQ扫码登录 / 每日推荐，均保留。",
   "forceUpdate": false,
-  "size": 19300710
+  "size": 19301013
 }
