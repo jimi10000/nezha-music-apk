@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.9-car",
-  "versionCode": 239003,
-  "tagName": "v3.2.9",
-  "apkName": "fenghuolun-music-v3.2.9-car-arm64-v8a.apk",
-  "md5": "3e47f1331009aabec17acd0b8c260bb6",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.9/fenghuolun-music-v3.2.9-car-arm64-v8a.apk",
+  "versionName": "3.2.55-car",
+  "versionCode": 285003,
+  "tagName": "v3.2.55",
+  "apkName": "fenghuolun-music-v3.2.55-car-arm64-v8a.apk",
+  "md5": "bb00239c57c4ff3595c600cf9290bb6a",
+  "apkUrl": "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.55/fenghuolun-music-v3.2.55-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.9/fenghuolun-music-v3.2.9-car-arm64-v8a.apk"
+    "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.55/fenghuolun-music-v3.2.55-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.9：悬浮窗颜色自定义——背景色 + 歌词颜色随心换。①【悬浮窗背景色自定义】桌面悬浮窗（含迷你挂件）支持从 8 色色板选择底色（经典黑/深灰/暖棕/深蓝/墨绿/酒红/纯黑），不选则跟随三套皮肤主题；背景透明度滑块依然生效（颜色与透明度独立控制）；②【悬浮窗歌词颜色自定义】歌词（含上一行弱化 42%）支持 8 色色板（暖橙/亮白/天蓝/荧光绿/樱花粉/柠檬黄/香芋紫），颜色与皮肤解耦、深浅背景都能看清；③【配置联动】新增颜色随「导出/导入配置」一起备份恢复，调试信息同步显示当前颜色；④【3.2.8 迷你挂件保留】只显示歌词+歌名、自由拖动、十字/双指缩放、独立尺寸位置持久化；⑤【3.2.7 修复保留】随便听听四源赛马+电台去死源+崩溃修复+排行榜整榜播放。双推 Gitee+GitHub。",
+  "description": "风火轮音乐车载版 3.2.55：最近播放记录修复（顺序/单曲模式也能记录）+ MyList 一键扫描本机/U盘音乐 + READ_MEDIA_AUDIO 权限补全。",
   "forceUpdate": false,
-  "size": 19293716
+  "size": 16078677
 }
