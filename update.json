@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.55-car",
-  "versionCode": 285003,
-  "tagName": "v3.2.55",
-  "apkName": "fenghuolun-music-v3.2.55-car-arm64-v8a.apk",
-  "md5": "bb00239c57c4ff3595c600cf9290bb6a",
-  "apkUrl": "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.55/fenghuolun-music-v3.2.55-car-arm64-v8a.apk",
+  "versionName": "3.2.56-car",
+  "versionCode": 286003,
+  "tagName": "v3.2.56",
+  "apkName": "fenghuolun-music-v3.2.56-car-arm64-v8a.apk",
+  "md5": "39123b6e879409711a7e7785cb2c9d7f",
+  "apkUrl": "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.56/fenghuolun-music-v3.2.56-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.55/fenghuolun-music-v3.2.55-car-arm64-v8a.apk"
+    "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.56/fenghuolun-music-v3.2.56-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.55：最近播放记录修复（顺序/单曲模式也能记录）+ MyList 一键扫描本机/U盘音乐 + READ_MEDIA_AUDIO 权限补全。",
+  "description": "v3.2.56：电台直播缓存修复（每台只播同段60s的根因）+ 一键扫描本机/U盘 + 最近播放修复 + 点歌立即切歌开关（默认）+ 静默卡死看门狗 + 安全模式 + 方控长按快进快退 + 对齐原车 QQ音乐协议 + 车机浏览树/队列/卡片增强。",
   "forceUpdate": false,
-  "size": 16078677
+  "size": 16079645
 }
