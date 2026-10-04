@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.56-car",
-  "versionCode": 286003,
-  "tagName": "v3.2.56",
-  "apkName": "fenghuolun-music-v3.2.56-car-arm64-v8a.apk",
-  "md5": "9bc583a18f7963b4df2aa712b1922d1c",
-  "apkUrl": "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.56/fenghuolun-music-v3.2.56-car-arm64-v8a.apk",
+  "versionName": "3.2.57-car",
+  "versionCode": 287003,
+  "tagName": "v3.2.57",
+  "apkName": "fenghuolun-music-v3.2.57-car-arm64-v8a.apk",
+  "md5": "f3ffa70d83b5b31c17e0cea640a0f827",
+  "apkUrl": "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.57/fenghuolun-music-v3.2.57-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.56/fenghuolun-music-v3.2.56-car-arm64-v8a.apk"
+    "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.57/fenghuolun-music-v3.2.57-car-arm64-v8a.apk"
   ],
-  "description": "v3.2.56 更新：功能与修复详见发版说明。",
+  "description": "修复升级后闪退无救兵(自动回滚); 电台台标; 歌词翻译补齐; 车机桌面小组件; 继续上次播放; 冷启动优化; 睡眠定时器电台态修复",
   "forceUpdate": false,
-  "size": 16079563
+  "size": 16095462
 }
