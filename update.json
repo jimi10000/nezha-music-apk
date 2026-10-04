@@ -9,7 +9,7 @@
   "fallbackUrls": [
     "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.56/fenghuolun-music-v3.2.56-car-arm64-v8a.apk"
   ],
-  "description": "v3.2.56：电台直播缓存修复（每台只播同段60s的根因）+ 一键扫描本机/U盘 + 最近播放修复 + 点歌立即切歌开关（默认）+ 静默卡死看门狗 + 安全模式 + 方控长按快进快退 + 对齐原车 QQ音乐协议 + 车机浏览树/队列/卡片增强。",
+  "description": "v3.2.56 更新：功能与修复详见发版说明。",
   "forceUpdate": false,
   "size": 16079563
 }
