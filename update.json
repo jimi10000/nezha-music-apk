@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.112-car",
-  "versionCode": 342003,
-  "tagName": "v3.2.112",
-  "apkName": "fenghuolun-music-v3.2.112-car-arm64-v8a.apk",
-  "md5": "2e752cb3b937a25d4955e6a25165e5ae",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.112/fenghuolun-music-v3.2.112-car-arm64-v8a.apk",
+  "versionName": "3.2.113-car",
+  "versionCode": 343003,
+  "tagName": "v3.2.113",
+  "apkName": "fenghuolun-music-v3.2.113-car-arm64-v8a.apk",
+  "md5": "919af2b7e36c6bf6a3f0b7465c3d30fc",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.113/fenghuolun-music-v3.2.113-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.112/fenghuolun-music-v3.2.112-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.113/fenghuolun-music-v3.2.113-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.112：\n1. 桌面宠物功能暂时下架：设置入口移除、开机自启不再拉起、已开启的宠物会在更新后 1 秒内自动收起。恢复方式后续版本提供。\n2. 其它媒体会话行为与 3.2.111 一致（事件驱动、无歌词直写）。",
+  "description": "风火轮音乐车载版 3.2.113：\n1. 歌词跳变终结版：媒体会话（两个）彻底不再携带歌词全文——之前版本虽有隔离开关，但被切回「正常写入」后隔离从未真正生效。本版硬编码关闭，无法再误开。\n2. 车机歌词助手的歌词改由助手自己的曲库提供（与其它不跳的播放器一致）；App 内悬浮窗歌词不受影响。\n3. 若个别歌助手不显示歌词属正常（助手曲库覆盖问题）；若仍出现歌词跳回第一句，请拍照回传日志。",
   "forceUpdate": false,
-  "size": 29192928
+  "size": 29192522
 }
