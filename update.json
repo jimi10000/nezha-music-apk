@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.105-car",
-  "versionCode": 335003,
-  "tagName": "v3.2.105",
-  "apkName": "fenghuolun-music-v3.2.105-car-arm64-v8a.apk",
-  "md5": "e879d0ef83e87868ddc308b8d14e3eb6",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.105/fenghuolun-music-v3.2.105-car-arm64-v8a.apk",
+  "versionName": "3.2.106-car",
+  "versionCode": 336003,
+  "tagName": "v3.2.106",
+  "apkName": "fenghuolun-music-v3.2.106-car-arm64-v8a.apk",
+  "md5": "3648601467c0d4651e95bd6395139a78",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.106/fenghuolun-music-v3.2.106-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.105/fenghuolun-music-v3.2.105-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.106/fenghuolun-music-v3.2.106-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.105：\n1. 歌词防跳第三版修复——每首歌从切歌到结束只发布一次媒体元数据（切歌后约 3 秒、歌词封面到齐时发布），中途任何补发全部取消。3.2.104 仍跳的原因：封面图加载完成时又补发了一次元数据，正好在开始唱几秒后把歌词打回第一句。\n2. 切歌瞬间新旧歌曲位置差不再被误判成快进：以前每次切歌都会多发一次元数据，这是「每切必跳」的主凶。\n3. 快进/快退改为两次确认：进度条抖动不再误触发歌词重置。\n4. 预期行为：切歌后歌词约 3 秒出现（等歌词封面到齐一次发全），出现后整首歌不再跳。",
+  "description": "风火轮音乐车载版 3.2.106：\n1. 新增「云端日志二维码」——设置→其他→日志→「云端日志二维码」（或日志查看弹窗里的「拍照回传」），点一下自动把完整日志传到云端并生成二维码，手机拍照发回来，任何人在任何地方扫码就能打开全部日志全文，反馈问题再也不用接电脑。\n2. 请先切几首歌验证歌词是否还会跳回第一句（3.2.105 已把每首歌的媒体信息发布压到一次并修了快进误判）；如果还跳，直接拍照回传日志，跳变瞬间发生了什么一翻便知。",
   "forceUpdate": false,
-  "size": 29194266
+  "size": 29197324
 }
