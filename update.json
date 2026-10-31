@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.106-car",
-  "versionCode": 336003,
-  "tagName": "v3.2.106",
-  "apkName": "fenghuolun-music-v3.2.106-car-arm64-v8a.apk",
-  "md5": "3648601467c0d4651e95bd6395139a78",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.106/fenghuolun-music-v3.2.106-car-arm64-v8a.apk",
+  "versionName": "3.2.107-car",
+  "versionCode": 337003,
+  "tagName": "v3.2.107",
+  "apkName": "fenghuolun-music-v3.2.107-car-arm64-v8a.apk",
+  "md5": "9e214b3c9f672cc4f1d930059b752e44",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.107/fenghuolun-music-v3.2.107-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.106/fenghuolun-music-v3.2.106-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.107/fenghuolun-music-v3.2.107-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.106：\n1. 新增「云端日志二维码」——设置→其他→日志→「云端日志二维码」（或日志查看弹窗里的「拍照回传」），点一下自动把完整日志传到云端并生成二维码，手机拍照发回来，任何人在任何地方扫码就能打开全部日志全文，反馈问题再也不用接电脑。\n2. 请先切几首歌验证歌词是否还会跳回第一句（3.2.105 已把每首歌的媒体信息发布压到一次并修了快进误判）；如果还跳，直接拍照回传日志，跳变瞬间发生了什么一翻便知。",
+  "description": "风火轮音乐车载版 3.2.107：\n1. 歌词防跳第四版修复（车机日志实锤根因）：切歌后新歌音频加载有几秒间隙，上一首的尾部进度报告会迟到到达，被误判成用户快进，触发一次强制元数据补发把歌词打回第一句——这就是「每次切歌后几秒内必跳」的最后根源。现在切歌后 10 秒内不再判定快进。\n2. 正常拖动进度条的歌词同步不受影响（10 秒后的快进照常识别）。",
   "forceUpdate": false,
-  "size": 29197324
+  "size": 29197477
 }
