@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.107-car",
-  "versionCode": 337003,
-  "tagName": "v3.2.107",
-  "apkName": "fenghuolun-music-v3.2.107-car-arm64-v8a.apk",
-  "md5": "9e214b3c9f672cc4f1d930059b752e44",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.107/fenghuolun-music-v3.2.107-car-arm64-v8a.apk",
+  "versionName": "3.2.108-car",
+  "versionCode": 338003,
+  "tagName": "v3.2.108",
+  "apkName": "fenghuolun-music-v3.2.108-car-arm64-v8a.apk",
+  "md5": "90e917845ab9112b9dd0449266971d35",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.108/fenghuolun-music-v3.2.108-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.107/fenghuolun-music-v3.2.107-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.108/fenghuolun-music-v3.2.108-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.107：\n1. 歌词防跳第四版修复（车机日志实锤根因）：切歌后新歌音频加载有几秒间隙，上一首的尾部进度报告会迟到到达，被误判成用户快进，触发一次强制元数据补发把歌词打回第一句——这就是「每次切歌后几秒内必跳」的最后根源。现在切歌后 10 秒内不再判定快进。\n2. 正常拖动进度条的歌词同步不受影响（10 秒后的快进照常识别）。",
+  "description": "风火轮音乐车载版 3.2.108：\n1. 媒体会话进度流改为纯事件驱动（对齐车机上歌词不跳的洛雪系参照实现拆解结论）：只在播放/暂停、切歌、快进确认、收藏变化时发布，砍掉此前每秒 1~2 次的周期性重发——车机本可自行外推进度，高频重发疑似正是歌词助手反复重置的诱因。\n2. 若本版仍有歌词跳变，请用「拍照回传」反馈：现在的日志带每次进度发布的位置时间线，可精确对照跳变时刻。",
   "forceUpdate": false,
-  "size": 29197477
+  "size": 29197374
 }
