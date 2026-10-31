@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.103-car",
-  "versionCode": 333003,
-  "tagName": "v3.2.103",
-  "apkName": "fenghuolun-music-v3.2.103-car-arm64-v8a.apk",
-  "md5": "481d2255ace996d1aaf012f5ac98cacc",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.103/fenghuolun-music-v3.2.103-car-arm64-v8a.apk",
+  "versionName": "3.2.104-car",
+  "versionCode": 334003,
+  "tagName": "v3.2.104",
+  "apkName": "fenghuolun-music-v3.2.104-car-arm64-v8a.apk",
+  "md5": "4b31db9c4097473b179310062717335c",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.104/fenghuolun-music-v3.2.104-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.103/fenghuolun-music-v3.2.103-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.104/fenghuolun-music-v3.2.104-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.103：\n1. 修车机歌词助手「唱着唱着歌词回到第一句」——中途不再重复发布媒体元数据，同曲补推/封面迟到补传/收藏状态回传不再各自触发一次歌词重置。\n2. 切歌后 1.5 秒内到达的封面、歌词、收藏状态合并为一次发布，歌词播放头不再被连续打断。\n3. 收藏状态改为取到真实值后单次推送，卡片心形图标不再短暂显示上一首的收藏状态。\n4. 修同曲补推（封面迟到重发）时进度被误归零、外显跳回开头的问题。",
+  "description": "风火轮音乐车载版 3.2.104：\n1. 歌词防跳二次修复——切歌后封面/歌词/收藏状态统一延迟合并为一次发布。3.2.103 仍每切必跳的原因：车机网络下封面位图/歌词全文常在 2~5 秒才到，各补发一次元数据就把歌词助手打回第一句，这次全部合并。\n2. 每次发布附加当前进度三明治（状态→元数据→状态），歌词助手按当前进度锚定，不再回第一句。\n3. 切歌 5 秒后才到的晚封面/晚歌词不再补发媒体元数据：宁可个别歌曲封面晚几秒更新，不让歌词跳回第一句。\n4. 新增媒体会话诊断日志：设置→日志→导出日志文件即可反馈问题。",
   "forceUpdate": false,
-  "size": 29194274
+  "size": 29194269
 }
