@@ -5,9 +5,9 @@
   "tagName": "v3.2.102",
   "apkName": "fenghuolun-music-v3.2.102-car-arm64-v8a.apk",
   "md5": "c34751f1c27f58b4fcb181705ed9be81",
-  "apkUrl": "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.102/fenghuolun-music-v3.2.102-car-arm64-v8a.apk",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.102/fenghuolun-music-v3.2.102-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.102/fenghuolun-music-v3.2.102-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.102/fenghuolun-music-v3.2.102-car-arm64-v8a.apk"
   ],
   "description": "风火轮音乐车载版 3.2.102：\n1. 首次进应用弹一次引导——选年龄段、喜欢的曲风、喜欢的年代，之后推荐全按这套画像打分。选「90年代」就多推90年代的歌，选「少年」默认偏10/20年代。行车中不弹，停车再说。\n2. 推荐会自己学：完整听完和收藏加分，8~30秒内切走记一次跳过，听的越多越准，纯本地不上传。\n3. 推荐不再越听越窄——每5首插1首跨曲风探索位；随便听听起播会提示这次为什么推它。\n4. 设置→精准推荐：年龄段/曲风/年代/语言随时回改，可锁定或屏蔽指定歌手，可一键重置。\n5. 修方控媒体键：悬浮窗开着时按键不再被抢焦点，车机媒体卡片可控。\n6. 桌面宠物加抽皮鞭连击互动；脸谱渲染替换骨骼动画，省内存。",
   "forceUpdate": false,
