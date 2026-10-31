@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.111-car",
-  "versionCode": 341003,
-  "tagName": "v3.2.111",
-  "apkName": "fenghuolun-music-v3.2.111-car-arm64-v8a.apk",
-  "md5": "9db24f48137637e23f76076d6eadec4c",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.111/fenghuolun-music-v3.2.111-car-arm64-v8a.apk",
+  "versionName": "3.2.112-car",
+  "versionCode": 342003,
+  "tagName": "v3.2.112",
+  "apkName": "fenghuolun-music-v3.2.112-car-arm64-v8a.apk",
+  "md5": "2e752cb3b937a25d4955e6a25165e5ae",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.112/fenghuolun-music-v3.2.112-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.111/fenghuolun-music-v3.2.111-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.112/fenghuolun-music-v3.2.112-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.111：\n1. 歌词跳变根因最终定位：车机歌词助手挂在播放内核（RNTP）的会话上，此前所有修复都做在另一个自建会话上。本版把播放内核会话回归原生形态：不再推送歌词全文、不再做周期位置纠偏——与车机上歌词不跳的洛雪系实现行为完全一致。\n2. 歌词助手现在走它自己的歌词曲库（与其它播放器一致），同步引擎由助手自己驱动。\n3. 若需恢复旧歌词直写通道：设置→其他→日志→「歌词隔离开关」。",
+  "description": "风火轮音乐车载版 3.2.112：\n1. 桌面宠物功能暂时下架：设置入口移除、开机自启不再拉起、已开启的宠物会在更新后 1 秒内自动收起。恢复方式后续版本提供。\n2. 其它媒体会话行为与 3.2.111 一致（事件驱动、无歌词直写）。",
   "forceUpdate": false,
-  "size": 29198193
+  "size": 29192928
 }
