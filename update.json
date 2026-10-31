@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.113-car",
-  "versionCode": 343003,
-  "tagName": "v3.2.113",
-  "apkName": "fenghuolun-music-v3.2.113-car-arm64-v8a.apk",
-  "md5": "919af2b7e36c6bf6a3f0b7465c3d30fc",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.113/fenghuolun-music-v3.2.113-car-arm64-v8a.apk",
+  "versionName": "3.2.114-car",
+  "versionCode": 344003,
+  "tagName": "v3.2.114",
+  "apkName": "fenghuolun-music-v3.2.114-car-arm64-v8a.apk",
+  "md5": "5230457376c160403b08dd564f5972a3",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.114/fenghuolun-music-v3.2.114-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.113/fenghuolun-music-v3.2.113-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.114/fenghuolun-music-v3.2.114-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.113：\n1. 歌词跳变终结版：媒体会话（两个）彻底不再携带歌词全文——之前版本虽有隔离开关，但被切回「正常写入」后隔离从未真正生效。本版硬编码关闭，无法再误开。\n2. 车机歌词助手的歌词改由助手自己的曲库提供（与其它不跳的播放器一致）；App 内悬浮窗歌词不受影响。\n3. 若个别歌助手不显示歌词属正常（助手曲库覆盖问题）；若仍出现歌词跳回第一句，请拍照回传日志。",
+  "description": "风火轮音乐车载版 3.2.114：\n1. 媒体会话拓扑对齐洛雪系参照实现：全包只保留播放内核自己的会话，此前自建的第二个会话彻底移除——车机歌词助手在两个会话间来回同步导致的歌词反复跳回第一句，从结构上根除（这是八轮修复以来一直存在的真正根因）。\n2. 车机媒体中心的播放/暂停/切歌控制现在直接作用在真实播放器上。\n3. 已知取舍：车机媒体卡片上的收藏按钮不再显示；语音点歌请用「播放+歌名」的语音指令或直接点歌。",
   "forceUpdate": false,
-  "size": 29192522
+  "size": 29192457
 }
