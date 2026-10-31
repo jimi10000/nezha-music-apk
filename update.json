@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.109-car",
-  "versionCode": 339003,
-  "tagName": "v3.2.109",
-  "apkName": "fenghuolun-music-v3.2.109-car-arm64-v8a.apk",
-  "md5": "4cdde9822bd31939f78240ef2e3452e1",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.109/fenghuolun-music-v3.2.109-car-arm64-v8a.apk",
+  "versionName": "3.2.110-car",
+  "versionCode": 340003,
+  "tagName": "v3.2.110",
+  "apkName": "fenghuolun-music-v3.2.110-car-arm64-v8a.apk",
+  "md5": "008c1977e5df511e7a8e1d5bc667dc8b",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.110/fenghuolun-music-v3.2.110-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.109/fenghuolun-music-v3.2.109-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.110/fenghuolun-music-v3.2.110-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.109：\n1. 媒体会话全面对齐车机上歌词不跳的洛雪系实现：进度状态只在播放/暂停/快进/切歌时发布（彻底移除周期性位置重发），歌词全文不再写入媒体会话——歌词助手对其它播放器的歌词本来就走它自己的源，均不跳。\n2. 副作用说明：车机歌词助手的歌词现在来自助手自己的曲库（与其它播放器一致）；App 内悬浮窗歌词不受影响。\n3. 如需恢复旧版歌词直写通道：设置→其他→日志→「歌词隔离开关」可切回。",
+  "description": "风火轮音乐车载版 3.2.110：\n1. 「裸会话」诊断版：媒体会话字段集彻底对齐车机上歌词不跳的洛雪系播放器——metadata 只留歌名/歌手/专辑/时长/封面地址，进度状态只留基础控制能力；此前多发的收藏心形、封面位图、音频路径、队列编号、自定义按钮全部移除。\n2. 已知变化：车机媒体卡片的收藏按钮暂不可见、部分车机封面可能显示为占位图——定位歌词问题后会按需恢复。\n3. 测试前请先强停或卸载车机上的其它音乐App（包括洛雪系改版），排除多会话互相干扰。",
   "forceUpdate": false,
-  "size": 29197788
+  "size": 29197734
 }
