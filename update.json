@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.102-car",
-  "versionCode": 332003,
-  "tagName": "v3.2.102",
-  "apkName": "fenghuolun-music-v3.2.102-car-arm64-v8a.apk",
-  "md5": "c34751f1c27f58b4fcb181705ed9be81",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.102/fenghuolun-music-v3.2.102-car-arm64-v8a.apk",
+  "versionName": "3.2.103-car",
+  "versionCode": 333003,
+  "tagName": "v3.2.103",
+  "apkName": "fenghuolun-music-v3.2.103-car-arm64-v8a.apk",
+  "md5": "481d2255ace996d1aaf012f5ac98cacc",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.103/fenghuolun-music-v3.2.103-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.102/fenghuolun-music-v3.2.102-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.103/fenghuolun-music-v3.2.103-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.102：\n1. 首次进应用弹一次引导——选年龄段、喜欢的曲风、喜欢的年代，之后推荐全按这套画像打分。选「90年代」就多推90年代的歌，选「少年」默认偏10/20年代。行车中不弹，停车再说。\n2. 推荐会自己学：完整听完和收藏加分，8~30秒内切走记一次跳过，听的越多越准，纯本地不上传。\n3. 推荐不再越听越窄——每5首插1首跨曲风探索位；随便听听起播会提示这次为什么推它。\n4. 设置→精准推荐：年龄段/曲风/年代/语言随时回改，可锁定或屏蔽指定歌手，可一键重置。\n5. 修方控媒体键：悬浮窗开着时按键不再被抢焦点，车机媒体卡片可控。\n6. 桌面宠物加抽皮鞭连击互动；脸谱渲染替换骨骼动画，省内存。",
+  "description": "风火轮音乐车载版 3.2.103：\n1. 修车机歌词助手「唱着唱着歌词回到第一句」——中途不再重复发布媒体元数据，同曲补推/封面迟到补传/收藏状态回传不再各自触发一次歌词重置。\n2. 切歌后 1.5 秒内到达的封面、歌词、收藏状态合并为一次发布，歌词播放头不再被连续打断。\n3. 收藏状态改为取到真实值后单次推送，卡片心形图标不再短暂显示上一首的收藏状态。\n4. 修同曲补推（封面迟到重发）时进度被误归零、外显跳回开头的问题。",
   "forceUpdate": false,
-  "size": 29194308
+  "size": 29194274
 }
