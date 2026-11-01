@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.3.000-car",
-  "versionCode": 349003,
-  "tagName": "v3.3.000",
-  "apkName": "fenghuolun-music-v3.3.000-car-arm64-v8a.apk",
-  "md5": "d9b9ea47539cbe1c42f001a36998743c",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.3.000/fenghuolun-music-v3.3.000-car-arm64-v8a.apk",
+  "versionName": "3.3.1-car",
+  "versionCode": 350003,
+  "tagName": "v3.3.1",
+  "apkName": "fenghuolun-music-v3.3.1-car-arm64-v8a.apk",
+  "md5": "536e7c91b9e14184ba8f57acf53a198a",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.3.1/fenghuolun-music-v3.3.1-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.3.000/fenghuolun-music-v3.3.000-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.3.1/fenghuolun-music-v3.3.1-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.3.000（里程碑版）：\n1. 歌词跳变八轮攻坚收官：单会话拓扑 + 歌词硬隔离 + 熄屏降载，媒体会话行为与车机上歌词不跳的洛雪系实现完全一致。\n2. 轻量化两轮：安装包 29.2MB → 17.4MB（-40%），旧宠物立绘/大图/资源收缩/so 压缩存储。\n3. 桌面宠物暂时下架；车机卡片收藏按钮与语音点歌直达通道暂缺（会话精简的取舍，反馈后评估恢复）。\n4. 新增：播放中每 60 秒记录内存/CPU 占用（日志可查）；RNTP 会话晚启动时的令牌补偿。",
+  "description": "风火轮音乐车载版 3.3.001：\n1. 播放 CPU 再优化（第二轮）：律动条渲染降为 30fps（频谱数据本身 20Hz，视觉无差）、JS 进度泵播放态 500→1000ms（进度条由原生外推保持平滑）——实测模拟器 CPU 占用明显下降，车机端同源受益。\n2. 悬浮窗进度条步进变为 1 秒，肉眼几乎不可感知。\n3. 含 3.3.000 里程碑全部内容。",
   "forceUpdate": false,
-  "size": 17383876
+  "size": 17384031
 }
