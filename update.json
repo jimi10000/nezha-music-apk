@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.118-car",
-  "versionCode": 348003,
-  "tagName": "v3.2.118",
-  "apkName": "fenghuolun-music-v3.2.118-car-arm64-v8a.apk",
-  "md5": "9be402ce327d3bbb08fb038fae5e0d51",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.118/fenghuolun-music-v3.2.118-car-arm64-v8a.apk",
+  "versionName": "3.3.000-car",
+  "versionCode": 349003,
+  "tagName": "v3.3.000",
+  "apkName": "fenghuolun-music-v3.3.000-car-arm64-v8a.apk",
+  "md5": "d9b9ea47539cbe1c42f001a36998743c",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.3.000/fenghuolun-music-v3.3.000-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.118/fenghuolun-music-v3.2.118-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.3.000/fenghuolun-music-v3.3.000-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.118：\n1. 清理最后一处歌词推送残留：蓝牙歌词开启时旧代码会把当前歌词行当标题写进媒体会话（每唱一句触发一次歌词重置）——彻底移除，蓝牙歌词走独立通道不受影响。\n2. 含 3.2.114-117 全部修复：单会话拓扑、歌词硬隔离、桌宠下架、熄屏降载、轻量化。",
+  "description": "风火轮音乐车载版 3.3.000（里程碑版）：\n1. 歌词跳变八轮攻坚收官：单会话拓扑 + 歌词硬隔离 + 熄屏降载，媒体会话行为与车机上歌词不跳的洛雪系实现完全一致。\n2. 轻量化两轮：安装包 29.2MB → 17.4MB（-40%），旧宠物立绘/大图/资源收缩/so 压缩存储。\n3. 桌面宠物暂时下架；车机卡片收藏按钮与语音点歌直达通道暂缺（会话精简的取舍，反馈后评估恢复）。\n4. 新增：播放中每 60 秒记录内存/CPU 占用（日志可查）；RNTP 会话晚启动时的令牌补偿。",
   "forceUpdate": false,
-  "size": 17384097
+  "size": 17383876
 }
