@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.117-car",
-  "versionCode": 347003,
-  "tagName": "v3.2.117",
-  "apkName": "fenghuolun-music-v3.2.117-car-arm64-v8a.apk",
-  "md5": "20bf310e45cad175de909750c5dc9c27",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.117/fenghuolun-music-v3.2.117-car-arm64-v8a.apk",
+  "versionName": "3.2.118-car",
+  "versionCode": 348003,
+  "tagName": "v3.2.118",
+  "apkName": "fenghuolun-music-v3.2.118-car-arm64-v8a.apk",
+  "md5": "9be402ce327d3bbb08fb038fae5e0d51",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.118/fenghuolun-music-v3.2.118-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.117/fenghuolun-music-v3.2.117-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.118/fenghuolun-music-v3.2.118-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.117：\n1. 播放时 CPU/内存优化第一轮：熄屏状态下律动条停止渲染、频谱采集暂停（此前熄屏后仍在空转），亮屏自动恢复——开车最常见状态（播放+熄屏）的持续占用显著下降。\n2. 新增运行时自观测：播放中每 60 秒记录一次内存与 CPU 占用，可在日志中量化车机真实占用。\n3. 含 3.2.114-116 全部修复（单会话拓扑、歌词硬隔离、桌宠下架、轻量化）。",
+  "description": "风火轮音乐车载版 3.2.118：\n1. 清理最后一处歌词推送残留：蓝牙歌词开启时旧代码会把当前歌词行当标题写进媒体会话（每唱一句触发一次歌词重置）——彻底移除，蓝牙歌词走独立通道不受影响。\n2. 含 3.2.114-117 全部修复：单会话拓扑、歌词硬隔离、桌宠下架、熄屏降载、轻量化。",
   "forceUpdate": false,
-  "size": 17384256
+  "size": 17384097
 }
