@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.2.116-car",
-  "versionCode": 346003,
-  "tagName": "v3.2.116",
-  "apkName": "fenghuolun-music-v3.2.116-car-arm64-v8a.apk",
-  "md5": "681e647ac63ad29e3908fb76e5aa5ae6",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.116/fenghuolun-music-v3.2.116-car-arm64-v8a.apk",
+  "versionName": "3.2.117-car",
+  "versionCode": 347003,
+  "tagName": "v3.2.117",
+  "apkName": "fenghuolun-music-v3.2.117-car-arm64-v8a.apk",
+  "md5": "20bf310e45cad175de909750c5dc9c27",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.2.117/fenghuolun-music-v3.2.117-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.116/fenghuolun-music-v3.2.116-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.2.117/fenghuolun-music-v3.2.117-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.2.116：\n1. 轻量化第二轮：安装包下载体积再降约 6MB（播放引擎等原生库改为压缩存储，车机下载更快的网络场景收益最明显）。\n2. 安装后体积与运行表现不变。\n3. 含此前全部修复（单会话拓扑、歌词硬隔离、桌宠下架）。",
+  "description": "风火轮音乐车载版 3.2.117：\n1. 播放时 CPU/内存优化第一轮：熄屏状态下律动条停止渲染、频谱采集暂停（此前熄屏后仍在空转），亮屏自动恢复——开车最常见状态（播放+熄屏）的持续占用显著下降。\n2. 新增运行时自观测：播放中每 60 秒记录一次内存与 CPU 占用，可在日志中量化车机真实占用。\n3. 含 3.2.114-116 全部修复（单会话拓扑、歌词硬隔离、桌宠下架、轻量化）。",
   "forceUpdate": false,
-  "size": 17383107
+  "size": 17384256
 }
