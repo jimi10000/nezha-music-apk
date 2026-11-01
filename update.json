@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.3.2-car",
-  "versionCode": 351003,
-  "tagName": "v3.3.2",
-  "apkName": "fenghuolun-music-v3.3.2-car-arm64-v8a.apk",
-  "md5": "2b8d73e25eba2685ab152ef94a475018",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.3.2/fenghuolun-music-v3.3.2-car-arm64-v8a.apk",
+  "versionName": "3.3.3-car",
+  "versionCode": 352003,
+  "tagName": "v3.3.3",
+  "apkName": "fenghuolun-music-v3.3.3-car-arm64-v8a.apk",
+  "md5": "a364e2e99ea148f15c09f5e5071f99ed",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.3.3/fenghuolun-music-v3.3.3-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.3.2/fenghuolun-music-v3.3.2-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.3.3/fenghuolun-music-v3.3.3-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.3.2：\n1. 新增「开机自启」开关（悬浮窗设置页）：上电/开机/版本更新后是否自动恢复悬浮窗，默认开。关闭后上电不自动拉起，需手动打开 App——应车机用户要求。\n2. 与悬浮窗总开关独立：总开关管显示与否，本开关管上电要不要自动恢复。\n3. 含 3.3.1 全部修复（单会话拓扑、歌词硬隔离、播放 CPU 两轮优化、桌宠下架、轻量化）。",
+  "description": "风火轮音乐车载版 3.3.3：\n1. 新增「开机自启」独立开关（设置→其他→开机自启）：控制整个应用上电后是否自动拉起——关闭后上电/开机不会出现任何风火轮界面（悬浮窗、通知栏媒体卡均不出），需手动打开 App。默认开。\n2. 悬浮窗设置页同步提供同一开关。\n3. 含 3.3.2 全部修复。",
   "forceUpdate": false,
-  "size": 17385248
+  "size": 17386565
 }
