@@ -1,15 +1,15 @@
 {
   "appId": "com.fenghuolun.audio.player",
-  "versionName": "3.3.1-car",
-  "versionCode": 350003,
-  "tagName": "v3.3.1",
-  "apkName": "fenghuolun-music-v3.3.1-car-arm64-v8a.apk",
-  "md5": "536e7c91b9e14184ba8f57acf53a198a",
-  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.3.1/fenghuolun-music-v3.3.1-car-arm64-v8a.apk",
+  "versionName": "3.3.2-car",
+  "versionCode": 351003,
+  "tagName": "v3.3.2",
+  "apkName": "fenghuolun-music-v3.3.2-car-arm64-v8a.apk",
+  "md5": "2b8d73e25eba2685ab152ef94a475018",
+  "apkUrl": "https://gitee.com/jimi10000/nezha-music-apk/releases/download/v3.3.2/fenghuolun-music-v3.3.2-car-arm64-v8a.apk",
   "fallbackUrls": [
-    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.3.1/fenghuolun-music-v3.3.1-car-arm64-v8a.apk"
+    "https://github.com/jimi10000/nezha-music-apk/releases/download/v3.3.2/fenghuolun-music-v3.3.2-car-arm64-v8a.apk"
   ],
-  "description": "风火轮音乐车载版 3.3.001：\n1. 播放 CPU 再优化（第二轮）：律动条渲染降为 30fps（频谱数据本身 20Hz，视觉无差）、JS 进度泵播放态 500→1000ms（进度条由原生外推保持平滑）——实测模拟器 CPU 占用明显下降，车机端同源受益。\n2. 悬浮窗进度条步进变为 1 秒，肉眼几乎不可感知。\n3. 含 3.3.000 里程碑全部内容。",
+  "description": "风火轮音乐车载版 3.3.2：\n1. 新增「开机自启」开关（悬浮窗设置页）：上电/开机/版本更新后是否自动恢复悬浮窗，默认开。关闭后上电不自动拉起，需手动打开 App——应车机用户要求。\n2. 与悬浮窗总开关独立：总开关管显示与否，本开关管上电要不要自动恢复。\n3. 含 3.3.1 全部修复（单会话拓扑、歌词硬隔离、播放 CPU 两轮优化、桌宠下架、轻量化）。",
   "forceUpdate": false,
-  "size": 17384031
+  "size": 17385248
 }
